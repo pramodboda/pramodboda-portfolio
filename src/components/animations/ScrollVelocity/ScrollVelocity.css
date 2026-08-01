@@ -1,0 +1,41 @@
+.parallax {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    mask-image: linear-gradient(
+        to right,
+        transparent,
+        black 8%,
+        black 92%,
+        transparent
+    );
+    -webkit-mask-image: linear-gradient(
+        to right,
+        transparent,
+        black 8%,
+        black 92%,
+        transparent
+    );
+}
+
+.scroller {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: max-content;
+    will-change: transform;
+}
+
+.scroller > span {
+    display: inline-flex;
+    align-items: center;
+    flex-shrink: 0;
+    margin-right: 16px;
+}
+
+.scroller > span:last-child {
+    margin-right: 0;
+}

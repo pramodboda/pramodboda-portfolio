@@ -1,0 +1,47 @@
+.circular-text {
+  margin: 0 auto;
+  border-radius: 50%;
+  /* width: 200px; */
+  width: 150px;
+  position: relative;
+  /* height: 200px; */
+  height: 150px;
+  /* font-weight: bold; */
+  color: #999;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  transform-origin: 50% 50%;
+  -webkit-transform-origin: 50% 50%;
+}
+
+.circular-text span {
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  /* font-size: 24px; */
+  font-size: 15px;
+  font-weight: 500;
+  /* word-spacing: -12px; */
+
+  transition: all 0.5s cubic-bezier(0, 0, 0, 1);
+}
+
+.circular-text-cutom{
+  font-size: 14px !important;
+  left: 0;
+}
+
+/* Compact variant used inside the hero badge (92-110px container) */
+.circular-text-custom {
+  transform: scale(0.62);
+}
+
+.circular-text-custom span {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
