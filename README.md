@@ -29,10 +29,12 @@ This portfolio highlights my journey, technical expertise, and selected real-wor
 - 🎯 Clean and reusable component architecture
 - 📂 Project showcase with detailed descriptions
 - 📞 Contact section for easy reach
-- 🌙 Optional Dark Mode (if implemented)
+- 🌙 Dark Mode
 
 ## 📸 Preview
+
 <!-- Add screenshots here -->
+
 ![Portfolio Preview](./screenshots/preview.png)
 
 ## 🏗️ Project Structure
@@ -53,19 +55,26 @@ src/
 ## 🚀 Getting Started
 
 1️⃣ Clone the repo
+
 ```bash
 git clone https://github.com/pramodboda/pramodboda-portfolio.git
 cd portfolio
-````
+```
+
 2️⃣ Install dependencies
+
 ```bash
 npm install
 ```
+
 3️⃣ Run locally
+
 ```bash
 npm run dev
 ```
+
 📦 Build for Production
+
 ```bash
 npm run build
 ```
@@ -86,6 +95,7 @@ You can deploy this project using:
 - 🔹 Clip Cleaner – AI-powered video cleaning tool
 
 ## 📈 Future Improvements
+
 - Add blog section ✍️
 - Adding 3D element objects
 - Integrate AI-based project recommendations 🤖
@@ -93,6 +103,7 @@ You can deploy this project using:
 - Improve accessibility (a11y) ♿
 
 ## 🤝 Connect With Me
+
 - 💼 LinkedIn: https://www.linkedin.com/in/pramodkumarboda/
 - 💻 GitHub: https://github.com/pramodboda
 - 📧 Email: pramodkumarboda@gmail.com
