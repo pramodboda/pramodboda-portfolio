@@ -7,7 +7,7 @@ import SectionHeading from "../../components/SectionHeading/SectionHeading";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import { projectsData } from "../../data/projects_data";
 
-// import { Link as RouterLink } from "react-router-dom";
+import { Link as RouterLink } from "react-router-dom";
 
 export default function FeaturedProjects() {
   return (
@@ -31,14 +31,14 @@ export default function FeaturedProjects() {
           mt: { xs: 5, md: 6 },
         }}
       >
-        {/* <Button
+        <Button
           component={RouterLink}
           to="/projects"
           variant="outlined"
           size="large"
         >
           View All Projects
-        </Button> */}
+        </Button>
       </Box>
 
         {projectsData.map((project) => (

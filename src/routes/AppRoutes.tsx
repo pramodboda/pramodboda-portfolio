@@ -10,7 +10,13 @@ function AppRoutes(){
             <Route path="/" element={<Home/>}/>
             <Route path="/projects" element={<Projects/>}/>
 
-            
+            <Route path="/projects/:slug"
+            element={<ProjectDetails/>}/>
+
+<Route
+        path="*"
+        element={<div>404 - Page Not Found</div>}
+      />
         </Routes>
     )
 }

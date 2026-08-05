@@ -11,7 +11,7 @@ import Navbar from "./components/Navbar/Navbar";
 // import SkillsAndExpertise from "./sections/SkillsAndExpertise/SkillsAndExpertise";
 // import FeaturedProjects from "./sections/FeaturedProjects/FeaturedProjects";
 // import LetsConnect from "./sections/LetsConnect/LetsConnect";
-import Home from "./pages/Home";
+import Home from "./pages/Home/Home";
 import Footer from "./sections/Footer/Footer";
 
 import AppLoaderComponent from "./components/AppLoaderComponent/AppLoaderComponent";
