@@ -1,10 +1,13 @@
 // FeaturedProjects.tsx
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
+import Button from "@mui/material/Button";
 
 import SectionHeading from "../../components/SectionHeading/SectionHeading";
-import { projectsData } from "../../data/projects_data";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
+import { projectsData } from "../../data/projects_data";
+
+// import { Link as RouterLink } from "react-router-dom";
 
 export default function FeaturedProjects() {
   return (
@@ -21,6 +24,23 @@ export default function FeaturedProjects() {
       />
 
       <Grid container spacing={3}>
+      <Box
+        sx={{
+          display: "flex",
+          justifyContent: "center",
+          mt: { xs: 5, md: 6 },
+        }}
+      >
+        {/* <Button
+          component={RouterLink}
+          to="/projects"
+          variant="outlined"
+          size="large"
+        >
+          View All Projects
+        </Button> */}
+      </Box>
+
         {projectsData.map((project) => (
           <Grid key={project.id} size={{ xs: 12, sm: 6, md: 4 }}>
             <ProjectCard

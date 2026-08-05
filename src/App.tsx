@@ -6,14 +6,17 @@ import Container from "@mui/material/Container";
 import { useTheme } from "@mui/material/styles";
 
 import Navbar from "./components/Navbar/Navbar";
-import Hero from "./sections/Hero/Hero";
-import About from "./sections/About/About";
-import SkillsAndExpertise from "./sections/SkillsAndExpertise/SkillsAndExpertise";
-import FeaturedProjects from "./sections/FeaturedProjects/FeaturedProjects";
-import LetsConnect from "./sections/LetsConnect/LetsConnect";
+// import Hero from "./sections/Hero/Hero";
+// import About from "./sections/About/About";
+// import SkillsAndExpertise from "./sections/SkillsAndExpertise/SkillsAndExpertise";
+// import FeaturedProjects from "./sections/FeaturedProjects/FeaturedProjects";
+// import LetsConnect from "./sections/LetsConnect/LetsConnect";
+import Home from "./pages/Home";
 import Footer from "./sections/Footer/Footer";
 
 import AppLoaderComponent from "./components/AppLoaderComponent/AppLoaderComponent";
+
+
 
 // How long the intro loader stays on screen. Kept short (this is a static
 // site, nothing is actually being fetched) so it reads as a brand moment
@@ -39,11 +42,12 @@ function App() {
       <Navbar />
 
       <Container maxWidth="lg">
-        <Hero />
+        {/* <Hero />
         <About />
         <SkillsAndExpertise />
         <FeaturedProjects />
-        <LetsConnect />
+        <LetsConnect /> */}
+        <Home/>
       </Container>
 
       <Box sx={{ px: { xs: 2, lg: 3 } }}>

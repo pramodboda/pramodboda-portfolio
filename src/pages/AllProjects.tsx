@@ -3,21 +3,18 @@ import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 
 import SectionHeading from "../../components/SectionHeading/SectionHeading";
-import { projectsData } from "../../data/projects_data";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
+
+import { projectsData } from "../../data/projects_data";
 
 export default function AllProjects() {
   return (
-    <Box id="work" component="section" sx={{ py: { xs: 8, md: 12 } }}>
-      <SectionHeading
-        eyebrow="Work"
-        title="All Projects"
-        caption={
-          <>
-            A selection of products I've designed and built &mdash; from full-stack tools to
-            real-time collaborative apps.
-          </>
-        }
+    <Box component="main" sx={{ py: { xs: 8, md: 12 } }}>
+     
+     <SectionHeading
+        eyebrow="Projects"
+        title="Things I've built"
+        caption="A collection of projects spanning frontend, full-stack development, real-time applications, and UI engineering."
       />
 
       <Grid container spacing={3}>
