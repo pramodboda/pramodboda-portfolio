@@ -10,6 +10,9 @@ import { projectsData } from "../../data/projects_data";
 import { Link as RouterLink } from "react-router-dom";
 
 export default function FeaturedProjects() {
+
+// How many projects you want to show as a featuredProjects in Home page. Then change the number as you want in below slice method?
+  const featuredProjects = projectsData.filter((project)=> project.featured).slice(0,6);
   return (
     <Box id="work" component="section" sx={{ py: { xs: 8, md: 12 } }}>
       <SectionHeading
@@ -41,7 +44,20 @@ export default function FeaturedProjects() {
         </Button>
       </Box>
 
-        {projectsData.map((project) => (
+        {/* {projectsData.map((project) => (
+          <Grid key={project.id} size={{ xs: 12, sm: 6, md: 4 }}>
+            <ProjectCard
+              title={project.title}
+              description={project.description}
+              technologies={project.technologies}
+              liveDemoLink={project.liveDemoLink}
+              githubLink={project.githubLink}
+              thumbImg={project.thumbImg}
+            />
+          </Grid>
+        ))} */}
+
+{featuredProjects.map((project) => (
           <Grid key={project.id} size={{ xs: 12, sm: 6, md: 4 }}>
             <ProjectCard
               title={project.title}
