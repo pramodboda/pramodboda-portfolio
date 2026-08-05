@@ -10,8 +10,8 @@ function AppRoutes(){
             <Route path="/" element={<Home/>}/>
             <Route path="/projects" element={<AllProjects/>}/>
 
-            <Route path="/projects/:slug"
-            element={<ProjectDetails/>}/>
+            {/* <Route path="/projects/:slug"
+            element={<ProjectDetails/>}/> */}
 
 <Route
         path="*"
