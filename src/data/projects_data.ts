@@ -10,7 +10,7 @@ export const projectsData: Project[] = [
         description:
             "Kind of Project",
             featured: true,
-        technologies: ["React", "TypeScript", "Node.js", "PostgreSQL", "MongoDB", "Zustand", "React Query", "MUI"],
+        technologies: ["React", "TypeScript", "Node.js", "PostgreSQL", "Zustand", "React Query", "MUI"],
         skills: [
             "Full Stack Development",
             "State Management",
