@@ -6,9 +6,10 @@ import type { Project } from "../types/app.types";
 export const projectsData: Project[] = [
     {
         id: 1,
-        title: "CLM Connect Tool",
+        title: "Coming Soon JIRA Kind of Project",
         description:
-            "A full-stack contract lifecycle management tool that allows users to manage contracts, track approvals, and monitor workflows with high performance and optimized state handling.",
+            "Kind of Project",
+            featured: true,
         technologies: ["React", "TypeScript", "Node.js", "PostgreSQL", "MongoDB", "Zustand", "React Query", "MUI"],
         skills: [
             "Full Stack Development",
@@ -17,7 +18,7 @@ export const projectsData: Project[] = [
             "Performance Optimization",
             "Database Design"
         ],
-        liveDemoLink: "https://clm-connect-demo.vercel.app",
+        liveDemoLink: "https://jira-kind-demo.vercel.app",
         //   github: "https://github.com/your-username/clm-connect",
         //   highlights: [
         //     "Built entire application solo",
@@ -30,6 +31,7 @@ export const projectsData: Project[] = [
         id: 2,
         thumbImg: "",
         title: "Real-Time Collaborative Whiteboard",
+        featured: true,
         description:
             "A modern, multiplayer whiteboard application that enables users to draw, sketch, brainstorm, and collaborate together in real time from anywhere in the world.",
         technologies: ["React", "TypeScript", "Node.js", "Socket.IO", "MUI"],
@@ -55,6 +57,7 @@ export const projectsData: Project[] = [
         title: "Image Gallery - Masonry Layout",
         description:
             "A responsive and visually dynamic image gallery built using a masonry layout to optimize space utilization and enhance user experience. The application intelligently arranges images of varying heights into seamless columns, eliminating gaps and creating a Pinterest-style layout. The project focuses on performance, responsiveness, and smooth user interactions while handling real-world challenges like asynchronous image loading, layout shifts, and scalability.",
+            featured: true,
         technologies: ["React", "TypeScript", "VITE"],
         skills: [
             "Computer Vision",
@@ -77,6 +80,7 @@ export const projectsData: Project[] = [
         title: "Clip Cleaner (AI Video Processing Tool)",
         description:
             "A smart video processing tool that detects and removes idle frames, blank scenes, and erasing actions from raw art videos, producing clean and usable clips.",
+            featured: true,
         technologies: ["Python", "Flask", "OpenCV", "React", "TypeScript"],
         skills: [
             "Computer Vision",
@@ -98,7 +102,8 @@ export const projectsData: Project[] = [
         title: "BeaClip (Smart Clip Selector)",
         description:
             "A tool that ranks video clips based on aesthetic quality and selects the best clips within a specified duration, maintaining original order.",
-        technologies: ["Node.js", "TypeScript", "React"],
+            featured: true,
+            technologies: ["Node.js", "TypeScript", "React"],
         skills: [
             "Algorithm Design",
             "Data Processing",
@@ -118,7 +123,8 @@ export const projectsData: Project[] = [
         title: "Portfolio Website",
         description:
             "A modern, responsive portfolio showcasing projects, skills, and experience with a minimal UI/UX design approach.",
-        technologies: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
+            featured: true,
+            technologies: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
         skills: [
             "UI/UX Design",
             "Responsive Design",
@@ -138,7 +144,8 @@ export const projectsData: Project[] = [
         title: "Task Management Dashboard",
         description:
             "A productivity dashboard for managing tasks, tracking progress, and organizing workflows with intuitive UI and real-time updates.",
-        technologies: ["React", "TypeScript", "Firebase", "MUI"],
+            featured: true,
+            technologies: ["React", "TypeScript", "Firebase", "MUI"],
         skills: [
             "Frontend Development",
             "Realtime Data Handling",
