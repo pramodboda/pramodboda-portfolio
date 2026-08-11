@@ -6,7 +6,7 @@ import type { Project } from "../types/app.types";
 export const projectsData: Project[] = [
 
     {
-        id: 1,
+        id: "enterprise-operations-command Center",
         featured: true,
         title: "Enterprise Operations Command Center",
         slug: "Enterprise Operations Command Center",
@@ -31,7 +31,7 @@ export const projectsData: Project[] = [
 
     },
     {
-        id: 2,
+        id: "advanced-data-grid",
         featured: true,
         title: "Advanced Data Grid / Spreadsheet Application",
         slug: "Advanced Data Grid / Spreadsheet Application",
@@ -56,10 +56,44 @@ export const projectsData: Project[] = [
         highlights: [
             "Advanced React architecture", "state management", "data visualization", "Real-time UI and Frontend performance engineering."
         ]
-
-
     },
 
+    {
+        id: "enterprise-workflow-builder",
+        featured: true,
+        title: "Enterprise Workflow Builder",
+        slug: "Enterprise Workflow Builder",
+        description:
+            "Visual drag-and-drop workflow builder similar to simplified Zapier/Jira automation.",    
+        technologies: ["React", "TypeScript", "React Flow", "Zustand", "Node.js", "PostgreSQL"],
+        skills: [
+
+        ],
+        liveDemoLink: "",
+        github: "",
+        features: [],
+        highlights: [
+            "Complex UI architecture and business logic."
+        ]
+    },
+    {
+        id: "design-system-playground",
+        featured: true,
+        title: "Design System Playground",
+        slug: "Design System Playground",
+        description:
+            "Build your own enterprise design system with reusable components, themes and accessibility testing.",    
+        technologies: ["React", "TypeScript", "React Flow", "Zustand", "Node.js", "PostgreSQL"],
+        skills: [
+
+        ],
+        liveDemoLink: "",
+        github: "",
+        features: [],
+        highlights: [
+            "Complex UI architecture and business logic."
+        ]
+    },
     {
         id: 1,
         title: "Coming Soon JIRA Kind of Project",
