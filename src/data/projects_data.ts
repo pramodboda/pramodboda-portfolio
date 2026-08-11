@@ -12,8 +12,7 @@ export const projectsData: Project[] = [
         slug: "Enterprise Operations Command Center",
         description:
             "A highly interactive enterprise dashboard for monitoring multiple business operations in real time. Include KPI cards, drill-down analytics, filters, saved views, configurable widgets, alerts and role-based dashboards.",
-
-
+        level: 1,
         technologies: ["React", "TypeScript", "MUI", "Zustand", "TanStack Query", "Recharts", "Node.js", "PostgreSQL", "WebSocket/Socket.IO"],
         skills: [
             "Full Stack Development",
@@ -37,6 +36,7 @@ export const projectsData: Project[] = [
         slug: "Advanced Data Grid / Spreadsheet Application",
         description:
             "Build a mini Excel-like web application supporting large datasets.",
+        level: 1,
         technologies: ["React", "TypeScript", "TanStack Table", "Web Workers", "Node.js", "PostgreSQL"],
         skills: [
 
@@ -65,6 +65,7 @@ export const projectsData: Project[] = [
         slug: "Enterprise Workflow Builder",
         description:
             "Visual drag-and-drop workflow builder similar to simplified Zapier/Jira automation.",
+        level: 1,
         technologies: ["React", "TypeScript", "React Flow", "Zustand", "Node.js", "PostgreSQL"],
         skills: [
 
@@ -83,6 +84,7 @@ export const projectsData: Project[] = [
         slug: "Design System Playground",
         description:
             "Build your own enterprise design system with reusable components, themes and accessibility testing.",
+        level: 1,
         technologies: ["React", "TypeScript", "MUI", "Storybook", "Vitest", "Playwright"],
         skills: [
 
@@ -109,6 +111,7 @@ export const projectsData: Project[] = [
         slug: "Performance Monitoring Web App",
         description:
             "A frontend application that analyzes website performance and displays Core Web Vitals and performance metrics.",
+        level: 1,
         technologies: ["React", "TypeScript", "Lighthouse APIs", "Node.js", "PostgreSQL", "Recharts"],
 
         skills: [
@@ -134,6 +137,7 @@ export const projectsData: Project[] = [
         slug: "Accessibility Audit Platform",
         description:
             "User enters a website URL and receives an accessibility report.",
+        level: 1,
         technologies: ["React", "TypeScript", "Node.js", "Playwright", "axe-core", "PostgreSQL"],
 
         skills: [
@@ -142,14 +146,14 @@ export const projectsData: Project[] = [
         liveDemoLink: "",
         github: "",
         features: ["WCAG violations",
-        "Severity classification",
-        "Element locator",
-        "Suggested fixes",
-        "Historical reports"],
+            "Severity classification",
+            "Element locator",
+            "Suggested fixes",
+            "Historical reports"],
 
-            
+
         highlights: [
-"Accessibility + automation + backend engineering."
+            "Accessibility + automation + backend engineering."
         ]
     },
     {
@@ -158,19 +162,19 @@ export const projectsData: Project[] = [
         title: "Developer Documentation Platform",
         slug: "Developer Documentation Platform",
         description:
-            "Build a modern documentation platform similar to an internal engineering knowledge portal.",    
+            "Build a modern documentation platform similar to an internal engineering knowledge portal.",
         technologies: ["React/Next.js", "TypeScript", "Node.js", "PostgreSQL", "Markdown/MDX"],
         skills: [],
         liveDemoLink: "",
         github: "",
         features: ["Search",
-        "Versioning",
-        "Table of contents",
-        "Code blocks",
-        "Authentication",
-        "Permissions",
-        "Comments",
-        "Document history",],
+            "Versioning",
+            "Table of contents",
+            "Code blocks",
+            "Authentication",
+            "Permissions",
+            "Comments",
+            "Document history",],
         highlights: [
         ]
     },
@@ -181,17 +185,18 @@ export const projectsData: Project[] = [
         slug: "Real-Time Incident Management Dashboard",
         description:
             "A dashboard for engineering teams to monitor production incidents.",
+        level: 1,
         technologies: ["React", "TypeScript", "Node.js", "PostgreSQL", "Socket.IO"],
         skills: [],
         liveDemoLink: "",
         github: "",
-        features: [ "Incident timeline",
-        "Severity",
-        "On-call engineer",
-        "Status",
-        "Live updates",
-        "Activity feed",
-        "Incident analytics",],
+        features: ["Incident timeline",
+            "Severity",
+            "On-call engineer",
+            "Status",
+            "Live updates",
+            "Activity feed",
+            "Incident analytics",],
         highlights: [
         ]
     },
@@ -201,47 +206,146 @@ export const projectsData: Project[] = [
         title: "Advanced Kanban Project Management System",
         slug: "Advanced Kanban Project Management System",
         description:
-            "A sophisticated project management application rather than a basic Trello clone.",    
+            "A sophisticated project management application rather than a basic Trello clone.",
+        level: 1,
         technologies: ["React", "TypeScript", "Node.js", "PostgreSQL", "Redis"],
         skills: [],
         liveDemoLink: "",
         github: "",
-       
+
         features: ["Drag/drop",
-        "Sprint planning",
-        "Dependencies",
-        "Workflows",
-        "Permissions",
-        "Activity timeline",
-        "Notifications",
-        "Search"],
+            "Sprint planning",
+            "Dependencies",
+            "Workflows",
+            "Permissions",
+            "Activity timeline",
+            "Notifications",
+            "Search"],
         highlights: [
         ]
     },
     {
         id: "employee-service-management-platform",
+        level: 2,
         featured: true,
         title: "Employee Service Management Platform",
         slug: "Employee Service Management Platform",
         description:
-            "A sophisticated project management application rather than a basic Trello clone.",    
-            level: 2,
-        technologies: ["React", "TypeScript", "Node.js", "PostgreSQL", "Redis"],
+            "Build an internal enterprise portal where employees can submit requests.",
+        technologies: ["React", "TypeScript", "Spring Boot", "PostgreSQL", "Redis"],
         skills: [],
         liveDemoLink: "",
         github: "",
-       
-        features: ["Drag/drop",
-        "Sprint planning",
-        "Dependencies",
-        "Workflows",
-        "Permissions",
-        "Activity timeline",
-        "Notifications",
-        "Search"],
+        features: ["RBAC",
+            "Approval workflows",
+            "Notifications",
+            "Audit logs",
+            "SLA tracking",
+            "Admin dashboard"],
         highlights: [
         ]
     },
+    {
+        id: "contract-lifecycle-management-system",
+        level: 2,
+        featured: true,
+        title: "Contract Lifecycle Management System",
+        slug: "Contract Lifecycle Management System",
+        description:
+            "Create, review, approve, renew and track business contracts.",
+        technologies: ["React", "TypeScript", "Spring Boot", "PostgreSQL", "Elasticsearch"],
+        skills: [],
+        liveDemoLink: "",
+        github: "",
+        features: ["Contract upload",
+            "Versioning",
+            "Approval workflow",
+            "Expiry notifications",
+            "Search",
+            "Audit trail",
+            "Role permissions",
+            "Dashboard",],
+        highlights: [
+        ]
+    },
+    {
+        id: "customer-support-ticketing-platform",
+        level: 2,
+        featured: true,
+        title: "Customer Support / Ticketing Platform",
+        slug: "Customer Support / Ticketing Platform",
+        description:
+            "Build a Zendesk-like application.",
+        technologies: ["React", "TypeScript", "Node.js", "PostgreSQL", "Redis", "WebSocket"],
+        skills: [],
+        liveDemoLink: "",
+        github: "",
+        features: [
+            "Ticket management",
+            "SLA",
+            "Assignment",
+            "Priority",
+            "Internal notes",
+            "Customer communication",
+            "Agent dashboard",
+            "Real-time updates"
+        ],
+        highlights: [
+        ]
+    },
+    {
+        id: "api-management-portal",
+        level: 2,
+        featured: true,
+        title: "API Management Portal",
+        slug: "API Management Portal",
+        description:
+            "Build a mini API gateway management platform.",
+        technologies: ["React", "TypeScript", "Spring Boot", "PostgreSQL", "Redis"],
+
+        skills: [],
+        liveDemoLink: "",
+        github: "",
+        features: [
+            "API registration",
+            "API keys",
+            "Rate limits",
+            "Usage analytics",
+            "API versions",
+            "Developer portal",
+        ],
+        highlights: [
+        ]
+    },
+    {
+        id: "Expense Management System",
+        level: 2,
+        featured: true,
+        title: "Expense Management System",
+        slug: "Expense Management System",
+        description:
+            "A business expense management platform.",
+        technologies: ["React", "TypeScript", "Spring Boot", "PostgreSQL"],
+
+        skills: [],
+        liveDemoLink: "",
+        github: "",
+        features: [
+            "Expense submission",
+            "Receipt upload",
+            "Approval workflow",
+            "Expense categories",
+            "Budget limits",
+            "Reports",
+            "Role-based approval",
+        ],
+        highlights: [
+        ]
+    },
+
+
+
+    //==========================================================
     {
         id: 1,
         title: "Coming Soon JIRA Kind of Project",
