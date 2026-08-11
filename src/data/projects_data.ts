@@ -492,7 +492,7 @@ export const projectsData: Project[] = [
         ],
         liveDemoLink: "https://collaborative-whiteboard-nu.vercel.app/",
         //   github: "https://github.com/your-username/reimagine-viewer",
-        features: ["Collaborative", "Can draw circles", "Can draw rectangles", "Can draw lines", "Can draw free-hand", "UNDO-REDO", "Clear Board"],
+        features: ["Collaborative", "Cursor Presence", "Can draw circles", "Can draw rectangles", "Can draw lines", "Can draw free-hand", "UNDO-REDO", "Clear Board"],
         highlights: [
             "Collaborative"
         ]
@@ -587,7 +587,7 @@ export const projectsData: Project[] = [
         description:
             "Upload resume + job description.",
         thumbImg: "",
-        technologies: ["React", "TypeScript", "MUI", "Python","FastAPI","LLM", "PostgreSQL"],
+        technologies: ["React", "TypeScript", "MUI", "Python", "FastAPI", "LLM", "PostgreSQL"],
         skills: [
             "AI",
             "LLM"
@@ -595,13 +595,13 @@ export const projectsData: Project[] = [
         liveDemoLink: "",
         github: "",
         features: [
-           "System analyzes:",
-           "Skill match",
-"Missing skills",
-"Experience match",
-"Keyword coverage",
-"ATS compatibility",
-"Suggested improvements",
+            "System analyzes:",
+            "Skill match",
+            "Missing skills",
+            "Experience match",
+            "Keyword coverage",
+            "ATS compatibility",
+            "Suggested improvements",
         ],
         highlights: [
         ]
@@ -615,7 +615,7 @@ export const projectsData: Project[] = [
         description:
             "GitHub repository → automated code review.",
         thumbImg: "",
-        technologies: ["React", "TypeScript", "MUI", "Python","GitHub API","LLM"],
+        technologies: ["React", "TypeScript", "MUI", "Python", "GitHub API", "LLM"],
         skills: [
             "AI",
             "LLM"
@@ -643,7 +643,7 @@ export const projectsData: Project[] = [
         description:
             "System generates SQL, validates it and displays the result.<br/>ex: User asks: Show me the top 10 customers by revenue this year.",
         thumbImg: "",
-        technologies: ["React", "TypeScript", "MUI", "Python","FastAPI","PostgreSQL","LLM"],
+        technologies: ["React", "TypeScript", "MUI", "Python", "FastAPI", "PostgreSQL", "LLM"],
         skills: [
             "AI",
             "LLM"
@@ -657,6 +657,124 @@ export const projectsData: Project[] = [
         ],
         highlights: [
             "Added a SQL safety layer so generated queries cannot modify data."
+        ]
+    },
+    {
+        id: "ai-customer-support-agent",
+        level: 3,
+        featured: true,
+        title: "AI Customer Support Agent",
+        slug: "AI Customer Support Agent",
+        description:
+            "AI support system with human handoff.",
+        thumbImg: "",
+        technologies: ["React", "TypeScript", "MUI", "Node.js", "Python", "PostgreSQL"],
+        skills: [
+            "AI",
+            "Agents"
+        ],
+        liveDemoLink: "",
+        github: "",
+        features: [
+            "AI answers",
+            "Knowledge base",
+            "Confidence score",
+            "Human escalation",
+            "Conversation history",
+            "Ticket creation"
+        ],
+        highlights: [
+
+        ]
+    },
+    {
+        id: "AI Document Intelligence Platform",
+        level: 3,
+        featured: true,
+        title: "AI Document Intelligence Platform",
+        slug: "AI Document Intelligence Platform",
+        description:
+            "Upload invoices/contracts/forms.",
+        thumbImg: "",
+        technologies: ["React", "TypeScript", "MUI", "Python", "FastAPI", "OCR", "LLM", "PostgreSQL"],
+        skills: [
+            "AI",
+            "FastAPI",
+            "OCR",
+            "LLM"
+        ],
+        liveDemoLink: "",
+        github: "",
+        features: [
+            "Extract:",
+            "Name",
+            "Date",
+            "Amount",
+            "Company",
+            "Invoice Number",
+            "Terms",
+        ],
+        highlights: [
+
+        ]
+    },
+    {
+        id: "ai-meeting-intelligence-platform",
+        level: 3,
+        featured: true,
+        title: "AI Meeting Intelligence Platform",
+        slug: "AI Meeting Intelligence Platform",
+        description:
+            "Upload meeting audio.",
+        thumbImg: "",
+        technologies: ["React", "TypeScript", "MUI", "Python", "FastAPI", "speech-to-text", "PostgreSQL"],
+        skills: [
+            "AI",
+            "FastAPI",
+            "speech-to-text",
+        ],
+        liveDemoLink: "",
+        github: "",
+        features: [
+            "Generate:",
+            "Transcript",
+            "Summary",
+            "Action items",
+            "Decisions",
+            "Topics",
+            "Speaker identification",
+        ],
+        highlights: [
+
+        ]
+    },
+    {
+        id: "rag-evaluation-platform",
+        level: 3,
+        featured: true,
+        title: "RAG Evaluation Platform",
+        slug: "RAG Evaluation Platform",
+        description:
+            "A platform that evaluates RAG answers.",
+        thumbImg: "",
+        technologies: ["React", "TypeScript", "MUI", "Python", "FastAPI", "PostgreSQL/pgvector"],
+        skills: [
+            "AI",
+            "FastAPI",
+            "RAG",
+        ],
+        liveDemoLink: "",
+        github: "",
+        features: [
+            "Measure:",
+            "Faithfulness",
+            "Relevance",
+            "Retrieval quality",
+            "Citation correctness",
+            "Hallucination rate",
+        ],
+        highlights: [
+            "AI engineering project"
         ]
     },
     //==========================================================
@@ -697,13 +815,13 @@ export const projectsData: Project[] = [
         ],
         liveDemoLink: "https://masonry-mui.vercel.app/",
         //   github: "https://github.com/your-username/clip-cleaner",
-          highlights: [
+        highlights: [
             "Masonry Layout",
             "Image Gallery",
             "Unsplash API",
             "Search",
             "Image Downloadable"
-          ]
+        ]
 
     },
     {
