@@ -606,7 +606,6 @@ export const projectsData: Project[] = [
         highlights: [
         ]
     },
-
     {
         id: "ai-code-review Assistant",
         level: 3,
@@ -625,7 +624,6 @@ export const projectsData: Project[] = [
         github: "",
         features: [
             "Analyze:",
-
             "Bugs",
             "Security issues",
             "Code smells",
@@ -634,6 +632,35 @@ export const projectsData: Project[] = [
             "Tests",
         ],
         highlights: [
+        ]
+    },
+    {
+        id: "ai-sql-analyst",
+        level: 3,
+        featured: true,
+        title: "AI SQL Analyst",
+        slug: "AI SQL Analyst",
+        description:
+            "System generates SQL, validates it and displays the result.<br/>ex: User asks: Show me the top 10 customers by revenue this year.",
+        thumbImg: "",
+        technologies: ["React", "TypeScript", "MUI", "Python","FastAPI","PostgreSQL","LLM"],
+        skills: [
+            "AI",
+            "LLM"
+        ],
+        liveDemoLink: "",
+        github: "",
+        features: [
+            "Analyze:",
+            "Bugs",
+            "Security issues",
+            "Code smells",
+            "Performance",
+            "Maintainability",
+            "Tests",
+        ],
+        highlights: [
+            "Add a SQL safety layer so generated queries cannot modify data."
         ]
     },
     //==========================================================
