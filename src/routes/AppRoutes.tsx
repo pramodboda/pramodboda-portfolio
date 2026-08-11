@@ -4,7 +4,7 @@ import Home from "../pages/Home/Home";
 import AllProjects from "../pages/AllProjects/AllProjects";
 
 
-function AppRoutes(){
+export default function AppRoutes(){
     return(
         <Routes>
             <Route path="/" element={<Home/>}/>

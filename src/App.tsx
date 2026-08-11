@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { AnimatePresence, motion } from "motion/react";
+import AppRoutes from "./routes/AppRoutes";
 
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
@@ -47,7 +48,8 @@ function App() {
         <SkillsAndExpertise />
         <FeaturedProjects />
         <LetsConnect /> */}
-        <Home/>
+        {/* <Home/> */}
+        <AppRoutes/>
       </Container>
 
       <Box sx={{ px: { xs: 2, lg: 3 } }}>
