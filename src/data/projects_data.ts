@@ -651,16 +651,12 @@ export const projectsData: Project[] = [
         liveDemoLink: "",
         github: "",
         features: [
-            "Analyze:",
-            "Bugs",
-            "Security issues",
-            "Code smells",
-            "Performance",
-            "Maintainability",
-            "Tests",
+            "System generates SQL",
+            "validates it ",
+            "and displays the result",
         ],
         highlights: [
-            "Add a SQL safety layer so generated queries cannot modify data."
+            "Added a SQL safety layer so generated queries cannot modify data."
         ]
     },
     //==========================================================
