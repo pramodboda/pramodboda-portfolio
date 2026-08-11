@@ -64,7 +64,7 @@ export const projectsData: Project[] = [
         title: "Enterprise Workflow Builder",
         slug: "Enterprise Workflow Builder",
         description:
-            "Visual drag-and-drop workflow builder similar to simplified Zapier/Jira automation.",    
+            "Visual drag-and-drop workflow builder similar to simplified Zapier/Jira automation.",
         technologies: ["React", "TypeScript", "React Flow", "Zustand", "Node.js", "PostgreSQL"],
         skills: [
 
@@ -82,16 +82,164 @@ export const projectsData: Project[] = [
         title: "Design System Playground",
         slug: "Design System Playground",
         description:
-            "Build your own enterprise design system with reusable components, themes and accessibility testing.",    
-        technologies: ["React", "TypeScript", "React Flow", "Zustand", "Node.js", "PostgreSQL"],
+            "Build your own enterprise design system with reusable components, themes and accessibility testing.",
+        technologies: ["React", "TypeScript", "MUI", "Storybook", "Vitest", "Playwright"],
         skills: [
 
         ],
         liveDemoLink: "",
         github: "",
-        features: [],
+        features: ["Buttons",
+            "Forms",
+            "Tables",
+            "Dialogs",
+            "Charts",
+            "Data grids",
+            "Dark/light themes",
+            "Accessibility",
+            "Responsive layouts"],
         highlights: [
-            "Complex UI architecture and business logic."
+            "Senior frontend engineering rather than just page building."
+        ]
+    },
+    {
+        id: "performance-monitoring-web-app",
+        featured: true,
+        title: "Performance Monitoring Web App",
+        slug: "Performance Monitoring Web App",
+        description:
+            "A frontend application that analyzes website performance and displays Core Web Vitals and performance metrics.",
+        technologies: ["React", "TypeScript", "Lighthouse APIs", "Node.js", "PostgreSQL", "Recharts"],
+
+        skills: [
+
+        ],
+        liveDemoLink: "",
+        github: "",
+        features: ["LCP",
+            "CLS",
+            "INP",
+            "TTFB",
+            "Performance history",
+            "URL comparison",
+            "Performance score",],
+        highlights: [
+
+        ]
+    },
+    {
+        id: "accessibility-audit-platform",
+        featured: true,
+        title: "Accessibility Audit Platform",
+        slug: "Accessibility Audit Platform",
+        description:
+            "User enters a website URL and receives an accessibility report.",
+        technologies: ["React", "TypeScript", "Node.js", "Playwright", "axe-core", "PostgreSQL"],
+
+        skills: [
+
+        ],
+        liveDemoLink: "",
+        github: "",
+        features: ["WCAG violations",
+        "Severity classification",
+        "Element locator",
+        "Suggested fixes",
+        "Historical reports"],
+
+            
+        highlights: [
+"Accessibility + automation + backend engineering."
+        ]
+    },
+    {
+        id: "developer-documentation-platform",
+        featured: true,
+        title: "Developer Documentation Platform",
+        slug: "Developer Documentation Platform",
+        description:
+            "Build a modern documentation platform similar to an internal engineering knowledge portal.",    
+        technologies: ["React/Next.js", "TypeScript", "Node.js", "PostgreSQL", "Markdown/MDX"],
+        skills: [],
+        liveDemoLink: "",
+        github: "",
+        features: ["Search",
+        "Versioning",
+        "Table of contents",
+        "Code blocks",
+        "Authentication",
+        "Permissions",
+        "Comments",
+        "Document history",],
+        highlights: [
+        ]
+    },
+    {
+        id: "real-time-incident-management-dashboard",
+        featured: true,
+        title: "Real-Time Incident Management Dashboard",
+        slug: "Real-Time Incident Management Dashboard",
+        description:
+            "A dashboard for engineering teams to monitor production incidents.",
+        technologies: ["React", "TypeScript", "Node.js", "PostgreSQL", "Socket.IO"],
+        skills: [],
+        liveDemoLink: "",
+        github: "",
+        features: [ "Incident timeline",
+        "Severity",
+        "On-call engineer",
+        "Status",
+        "Live updates",
+        "Activity feed",
+        "Incident analytics",],
+        highlights: [
+        ]
+    },
+    {
+        id: "advanced-kanban-project-management-system",
+        featured: true,
+        title: "Advanced Kanban Project Management System",
+        slug: "Advanced Kanban Project Management System",
+        description:
+            "A sophisticated project management application rather than a basic Trello clone.",    
+        technologies: ["React", "TypeScript", "Node.js", "PostgreSQL", "Redis"],
+        skills: [],
+        liveDemoLink: "",
+        github: "",
+       
+        features: ["Drag/drop",
+        "Sprint planning",
+        "Dependencies",
+        "Workflows",
+        "Permissions",
+        "Activity timeline",
+        "Notifications",
+        "Search"],
+        highlights: [
+        ]
+    },
+    {
+        id: "employee-service-management-platform",
+        featured: true,
+        title: "Employee Service Management Platform",
+        slug: "Employee Service Management Platform",
+        description:
+            "A sophisticated project management application rather than a basic Trello clone.",    
+            level: 2,
+        technologies: ["React", "TypeScript", "Node.js", "PostgreSQL", "Redis"],
+        skills: [],
+        liveDemoLink: "",
+        github: "",
+       
+        features: ["Drag/drop",
+        "Sprint planning",
+        "Dependencies",
+        "Workflows",
+        "Permissions",
+        "Activity timeline",
+        "Notifications",
+        "Search"],
+        highlights: [
         ]
     },
     {

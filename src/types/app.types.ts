@@ -9,9 +9,11 @@ export interface ISkill {
 
 export interface Project {
     id: number | string;
+    featured: boolean;
     title: string;
+    slug: string;
     description: string;
-    featured: boolean
+    level: number;
     technologies: string[];
     skills: string[];
     liveDemoLink?: string;
