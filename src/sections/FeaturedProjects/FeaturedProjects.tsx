@@ -1,4 +1,4 @@
-// FeaturedProjects.tsx
+//src/sections/FeaturedProjects/FeaturedProjects.tsx
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Button from "@mui/material/Button";
