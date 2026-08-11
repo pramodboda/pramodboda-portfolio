@@ -1,4 +1,4 @@
-// tokens.ts
+// src/theme/tokens.ts
 // Central design tokens so the light/dark themes stay in sync and easy to retune.
 
 export const brand = {

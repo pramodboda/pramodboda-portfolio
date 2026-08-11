@@ -1,4 +1,4 @@
-// theme.ts
+// src/theme/theme.ts
 //
 // TYPOGRAPHY SYSTEM
 // ------------------

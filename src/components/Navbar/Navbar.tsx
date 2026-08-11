@@ -1,5 +1,7 @@
 // Navbar.tsx
 import { useEffect, useState } from "react";
+import { Link as RouterLink, useLocation, useNavigate } from "react-router-dom";
+
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import Container from "@mui/material/Container";
@@ -12,6 +14,8 @@ import Drawer from "@mui/material/Drawer";
 import { LuMenu, LuX } from "react-icons/lu";
 import { useTheme, alpha } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
+
+
 
 import ThemeToggle from "../ThemeToggle/ThemeToggle";
 
@@ -40,6 +44,26 @@ export default function Navbar() {
     el?.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
+
+
+
+
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const handleLogoClick = () => {
+    if (location.pathname === "/") {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    } else {
+      navigate("/");
+    }
+  };
+
+
+
   return (
     <AppBar
       position="sticky"
@@ -50,9 +74,8 @@ export default function Navbar() {
           ? alpha(theme.palette.background.default, 0.75)
           : "transparent",
         backdropFilter: scrolled ? "blur(14px)" : "none",
-        borderBottom: `1px solid ${
-          scrolled ? theme.palette.divider : "transparent"
-        }`,
+        borderBottom: `1px solid ${scrolled ? theme.palette.divider : "transparent"
+          }`,
         transition: "all 0.25s ease",
       }}
     >
@@ -62,12 +85,15 @@ export default function Navbar() {
           sx={{ py: 1.25, justifyContent: "space-between" }}
         >
           <Typography
-            component="a"
-            href="#top"
-            onClick={(e) => {
-              e.preventDefault();
-              window.scrollTo({ top: 0, behavior: "smooth" });
-            }}
+            // component="a"
+            component={RouterLink}
+            // href="#top"
+            to="/"
+            // onClick={(e) => {
+            //   e.preventDefault();
+            //   window.scrollTo({ top: 0, behavior: "smooth" });
+            // }}
+            onClick={handleLogoClick}
             sx={{
               fontFamily: theme.typography.h1.fontFamily,
               fontStyle: "italic",
