@@ -7,12 +7,6 @@ import Container from "@mui/material/Container";
 import { useTheme } from "@mui/material/styles";
 
 import Navbar from "./components/Navbar/Navbar";
-// import Hero from "./sections/Hero/Hero";
-// import About from "./sections/About/About";
-// import SkillsAndExpertise from "./sections/SkillsAndExpertise/SkillsAndExpertise";
-// import FeaturedProjects from "./sections/FeaturedProjects/FeaturedProjects";
-// import LetsConnect from "./sections/LetsConnect/LetsConnect";
-// import Home from "./pages/Home/Home";
 import Footer from "./sections/Footer/Footer";
 
 import AppLoaderComponent from "./components/AppLoaderComponent/AppLoaderComponent";
@@ -43,12 +37,6 @@ function App() {
       <Navbar />
 
       <Container maxWidth="lg">
-        {/* <Hero />
-        <About />
-        <SkillsAndExpertise />
-        <FeaturedProjects />
-        <LetsConnect /> */}
-        {/* <Home/> */}
         <AppRoutes/>
       </Container>
 
