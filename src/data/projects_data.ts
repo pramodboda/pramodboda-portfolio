@@ -777,6 +777,35 @@ export const projectsData: Project[] = [
             "AI engineering project"
         ]
     },
+
+
+    //==========================================================
+    {
+        id: "notification-infrastructure",
+        level: 4,
+        featured: true,
+        title: "Notification Infrastructure",
+        slug: "Notification Infrastructure",
+        description:
+            "A centralized notification platform. Designed and developed the client architecture for in-app notifications: transient toasts for real-time events, plus a persistent inbox the user can review later. Support: Email, Push, In-app, SMS simulation",
+        thumbImg: "",
+        technologies: ["React", "TypeScript", "MUI", "Node.js", "PostgreSQL"],
+        skills: [
+        ],
+        liveDemoLink: "",
+        github: "",
+        features: [
+            "Templates",
+            "Scheduling",
+            "Retry",
+            "Queue",
+            "Delivery status",
+            "User preferences",
+            "Persistent inbox"
+        ],
+        highlights: [
+        ]
+    },
     //==========================================================
     {
         id: 1,
