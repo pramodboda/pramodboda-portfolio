@@ -683,8 +683,6 @@ export const projectsData: Project[] = [
         //     "Handled large datasets efficiently"
         //   ]
     },
-
-
     {
         id: 3,
         // thumbImg: "https://res.cloudinary.com/dnwrsbors/image/upload/v1777490962/masonry-gallery-mui_rryhdr.png",
@@ -695,19 +693,17 @@ export const projectsData: Project[] = [
         featured: true,
         technologies: ["React", "TypeScript", "VITE"],
         skills: [
-            "Computer Vision",
-            "Backend Development",
-            "Video Processing",
-            "Algorithm Design",
             "UI Integration"
         ],
         liveDemoLink: "https://masonry-mui.vercel.app/",
         //   github: "https://github.com/your-username/clip-cleaner",
-        //   highlights: [
-        //     "Automated video cleaning pipeline",
-        //     "Frame-level detection logic",
-        //     "Exports cleaned clips efficiently"
-        //   ]
+          highlights: [
+            "Masonry Layout",
+            "Image Gallery",
+            "Unsplash API",
+            "Search",
+            "Image Downloadable"
+          ]
 
     },
     {
