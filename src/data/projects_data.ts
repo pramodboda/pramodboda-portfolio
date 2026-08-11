@@ -318,7 +318,7 @@ export const projectsData: Project[] = [
         ]
     },
     {
-        id: "Expense Management System",
+        id: "expense-management-system",
         level: 2,
         featured: true,
         title: "Expense Management System",
@@ -343,8 +343,299 @@ export const projectsData: Project[] = [
         ]
     },
 
+    {
+        id: "procurement-management-platform",
+        level: 2,
+        featured: true,
+        title: "Procurement Management Platform",
+        slug: "Procurement Management Platform",
+        description:
+            "Build a purchase-request-to-approval system.",
+        technologies: ["React", "TypeScript", "Spring Boot", "PostgreSQL"],
 
+        skills: [],
+        liveDemoLink: "",
+        github: "",
+        features: [
+            "Employee",
+            "↓",
+            "Purchase Request",
+            "↓",
+            "Manager",
+            "↓",
+            "Finance",
+            "↓",
+            "Vendor",
+            "↓",
+            "Purchase Order",
+        ],
+        highlights: [
+        ]
+    },
+    {
+        id: "inventory-management-system",
+        level: 2,
+        featured: true,
+        title: "Inventory Management System",
+        slug: "Inventory Management System",
+        description:
+            "Inventory Management System",
+        technologies: ["React", "TypeScript", "Node.js", "PostgreSQL", "Redis"],
+        skills: [],
+        liveDemoLink: "",
+        github: "",
+        features: [
+            "Stock movement",
+            "Warehouses",
+            "Suppliers",
+            "Purchase orders",
+            "Low-stock alerts",
+            "Inventory history",
+            "Analytics"
+        ],
+        highlights: [
+        ]
+    },
+    {
+        id: "multi-tenant-saas-platform",
+        level: 2,
+        featured: true,
+        title: "Multi-Tenant SaaS Platform",
+        slug: "Multi-Tenant SaaS Platform",
+        description:
+            "A SaaS application where multiple companies use the same platform.",
+        technologies: ["React", "TypeScript", "Spring Boot", "PostgreSQL"],
+        skills: [],
+        liveDemoLink: "",
+        github: "",
+        features: [
+            "Organization",
+            "Users",
+            "Roles",
+            "Projects",
+            "Billing",
+            "Settings",
+        ],
+        highlights: [
+            "Demonstrates tenant isolation."
+        ]
+    },
+    {
+        id: "identity and-access-management-platform",
+        level: 2,
+        featured: true,
+        title: "Identity & Access Management Platform",
+        slug: "Identity & Access Management Platform",
+        description:
+            "A simplified Auth0/Okta-style system.",
+        technologies: ["React", "TypeScript", "Spring Boot", "PostgreSQL", "Redis"],
+        skills: [],
+        liveDemoLink: "",
+        github: "",
+        features: [
+            "Registration",
+            "Login",
+            "JWT",
+            "Refresh tokens",
+            "RBAC",
+            "OAuth",
+            "Session management",
+            "Password reset",
+            "Audit logs",
+        ],
+        highlights: [
+        ]
+    },
 
+    {
+        id: "approval-workflow-engine",
+        level: 2,
+        featured: true,
+        title: "Approval Workflow Engine",
+        slug: "Approval Workflow Engine",
+        description:
+            "A reusable workflow engine.",
+        thumbImg: "",
+        technologies: ["React", "TypeScript", "Spring Boot", "PostgreSQL"],
+        skills: [],
+        liveDemoLink: "",
+        github: "",
+        features: [
+            "Users can configure:",
+            "Request",
+            "↓",
+            "Manager Approval",
+            "↓",
+            "Finance Approval",
+            "↓",
+            "Completed",
+        ],
+        highlights: [
+
+        ]
+    },
+
+    {
+        id: "real-time-collaborative-whiteboard",
+        level: 2,
+        featured: true,
+        title: "Real-Time Collaborative Whiteboard",
+        slug: "Real-Time Collaborative Whiteboard",
+        description:
+            "A modern, multiplayer whiteboard application that enables users to draw, sketch, brainstorm, and collaborate together in real time from anywhere in the world.",
+        thumbImg: "",
+        technologies: ["React", "TypeScript", "Node.js", "Socket.IO", "MUI", "PostgreSQL"],
+        skills: [
+            "Frontend Development",
+            "UI/UX Design",
+            "Socket.IO Development"
+        ],
+        liveDemoLink: "https://collaborative-whiteboard-nu.vercel.app/",
+        //   github: "https://github.com/your-username/reimagine-viewer",
+        features: ["Collaborative", "Can draw circles", "Can draw rectangles", "Can draw lines", "Can draw free-hand", "UNDO-REDO", "Clear Board"],
+        highlights: [
+            "Collaborative"
+        ]
+    },
+
+    {
+        id: "job-application-tracking-system",
+        level: 2,
+        featured: true,
+        title: "Job Application Tracking System",
+        slug: "Job Application Tracking System",
+        description:
+            "Not just another job board, Its a personal/company ATS.",
+        thumbImg: "",
+        technologies: ["React", "TypeScript", "MUI", "Node.js", "PostgreSQL"],
+        skills: [
+        ],
+        liveDemoLink: "",
+        github: "",
+        features: [
+            "Job pipeline",
+            "Resume versions",
+            "Interview tracking",
+            "Recruiter communication",
+            "Application analytics",
+            "Reminders",
+            "Kanban",
+        ],
+        highlights: [
+        ]
+    },
+
+    {
+        id: "digital-asset-management-system",
+        level: 2,
+        featured: true,
+        title: "Digital Asset Management System",
+        slug: "Digital Asset Management System",
+        description:
+            "A enterprise media management platform.",
+        thumbImg: "",
+        technologies: ["React", "TypeScript", "MUI", "Node.js", "PostgreSQL", "Object Storage"],
+        skills: [
+        ],
+        liveDemoLink: "",
+        github: "",
+        features: [
+            "Upload",
+            "Search",
+            "Tags",
+            "Metadata",
+            "Versioning",
+            "Permissions",
+            "Preview",
+            "Collections"
+        ],
+        highlights: [
+        ]
+    },
+    {
+        id: "enterprise-ai-knowledge-assistant",
+        level: 3,
+        featured: true,
+        title: "Enterprise AI Knowledge Assistant",
+        slug: "Enterprise AI Knowledge Assistant",
+        description:
+            "Upload company documents and ask questions.",
+        thumbImg: "",
+        technologies: ["React", "TypeScript", "MUI", "Python FastAPI", "PostgreSQL/pgvector"],
+        skills: [
+        ],
+        liveDemoLink: "",
+        github: "",
+        features: [
+            "PDF ingestion",
+            "Chunking",
+            "Embeddings",
+            "RAG",
+            "Citations",
+            "Conversation history",
+            "Document permissions",
+        ],
+        highlights: [
+        ]
+    },
+    {
+        id: "ai-resume-analyzer",
+        level: 3,
+        featured: true,
+        title: "AI Resume Analyzer",
+        slug: "AI Resume Analyzer",
+        description:
+            "Upload resume + job description.",
+        thumbImg: "",
+        technologies: ["React", "TypeScript", "MUI", "Python","FastAPI","LLM", "PostgreSQL"],
+        skills: [
+            "AI",
+            "LLM"
+        ],
+        liveDemoLink: "",
+        github: "",
+        features: [
+           "System analyzes:",
+           "Skill match",
+"Missing skills",
+"Experience match",
+"Keyword coverage",
+"ATS compatibility",
+"Suggested improvements",
+        ],
+        highlights: [
+        ]
+    },
+
+    {
+        id: "ai-code-review Assistant",
+        level: 3,
+        featured: true,
+        title: "AI Code Review Assistant",
+        slug: "AI Code Review Assistant",
+        description:
+            "GitHub repository → automated code review.",
+        thumbImg: "",
+        technologies: ["React", "TypeScript", "MUI", "Python","GitHub API","LLM"],
+        skills: [
+            "AI",
+            "LLM"
+        ],
+        liveDemoLink: "",
+        github: "",
+        features: [
+            "Analyze:",
+
+            "Bugs",
+            "Security issues",
+            "Code smells",
+            "Performance",
+            "Maintainability",
+            "Tests",
+        ],
+        highlights: [
+        ]
+    },
     //==========================================================
     {
         id: 1,
@@ -370,29 +661,7 @@ export const projectsData: Project[] = [
         //   ]
     },
 
-    {
-        id: 2,
-        thumbImg: "",
-        title: "Real-Time Collaborative Whiteboard",
-        featured: true,
-        description:
-            "A modern, multiplayer whiteboard application that enables users to draw, sketch, brainstorm, and collaborate together in real time from anywhere in the world.",
-        technologies: ["React", "TypeScript", "Node.js", "Socket.IO", "MUI"],
-        skills: [
-            "Frontend Development",
-            "File Processing",
-            "Authentication",
-            "UI/UX Design",
-            "Cloud Integration"
-        ],
-        liveDemoLink: "https://collaborative-whiteboard-nu.vercel.app/",
-        //   github: "https://github.com/your-username/reimagine-viewer",
-        //   highlights: [
-        //     "Supports multilingual documents",
-        //     "Integrated Azure authentication",
-        //     "Smooth preview experience"
-        //   ]
-    },
+
     {
         id: 3,
         // thumbImg: "https://res.cloudinary.com/dnwrsbors/image/upload/v1777490962/masonry-gallery-mui_rryhdr.png",
