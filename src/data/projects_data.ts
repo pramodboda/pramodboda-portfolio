@@ -26,7 +26,6 @@ export const projectsData: Project[] = [
         github: "",
         features: [
             "Features:",
-
             "Driver location",
             "Delivery status",
             "ETA",
