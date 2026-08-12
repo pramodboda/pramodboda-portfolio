@@ -11,6 +11,33 @@ export const projectsData: Project[] = [
     // Level 4 
     //==========================================================
     {
+        id: "real-time-logistics-tracking-system",
+        level: 4,
+        featured: false,
+        title: "Real-Time Logistics Tracking System",
+        slug: "Real-Time Logistics Tracking System",
+        description:
+            "Tracks delivery vehicles/orders on a live map.",
+        thumbImg: "",
+        technologies: ["React", "TypeScript", "MUI", "Node.js", "WebSocket", "PostgreSQL/PostGIS"],
+        skills: [
+        ],
+        liveDemoLink: "",
+        github: "",
+        features: [
+            "Features:",
+
+            "Driver location",
+            "Delivery status",
+            "ETA",
+            "Geolocation",
+            "Live dashboard",
+            "Route history",
+        ],
+        highlights: [
+        ]
+    },
+    {
         id: "notification-infrastructure",
         level: 4,
         featured: false,
