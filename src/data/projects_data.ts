@@ -358,6 +358,82 @@ export const projectsData: Project[] = [
 
         ]
     },
+    {
+        id: "ai-product-requirement-analyzer",
+        level: 3,
+        featured: false,
+        title: "AI Product Requirement Analyzer",
+        slug: "AI Product Requirement Analyzer",
+        description:
+            "Upload a product requirement document.",
+        thumbImg: "",
+        technologies: ["React", "TypeScript", "MUI", "Python", "FastAPI", "LLM"],
+        skills: [
+            "AI",
+            "FastAPI",
+            "LLM,"
+        ],
+        liveDemoLink: "",
+        github: "",
+        features: [
+            "AI generates:",
+            "Requirements",
+            "↓",
+            "User Stories",
+            "↓",
+            "Acceptance Criteria",
+            "↓",
+            "API Requirements",
+            "↓",
+            "Database Entities",
+            "↓",
+            "Test Cases",
+        ],
+        highlights: [
+            "This connects AI with actual software development workflows."
+        ]
+    },
+    {
+        id: "ai-video-intelligence-platform",
+        level: 3,
+        featured: false,
+        title: "AI Video Intelligence Platform",
+        slug: "AI Video Intelligence Platform",
+        description:
+            "Upload video → system analyzes scenes.",
+        thumbImg: "",
+        technologies: ["React", "TypeScript", "MUI", "Python", "FastAPI",
+        "OpenCV",
+        "FFmpeg",
+        "Whisper",
+        "ML/LLM",
+        "PostgreSQL",
+    ],
+        skills: [
+            "AI",
+            "FastAPI",
+            "OpenCV",
+            "FFmpeg",
+            "Whisper",
+            "ML/LLM",
+        ],
+        liveDemoLink: "",
+        github: "",
+        features: [
+            "Detect:",
+            "Scene changes",
+            "Blur",
+            "Silence",
+            "Duplicate footage",
+            "Poor lighting",
+            "Faces",
+            "Motion",
+            "Audio quality",
+        ],
+        highlights: [
+            "This connects AI with actual software development workflows."
+        ]
+    },
     //==========================================================
     // Level: 2: Full Stack Projects 
     //==========================================================
