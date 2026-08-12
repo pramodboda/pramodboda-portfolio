@@ -8,7 +8,7 @@ export const projectsData: Project[] = [
 
 
     //==========================================================
-    // Level 4
+    // Level 4 
     //==========================================================
     {
         id: "notification-infrastructure",
@@ -288,15 +288,15 @@ export const projectsData: Project[] = [
             "Example:",
             "User Request",
             "↓",
-       "Planner Agent",
+            "Planner Agent",
             "↓",
-       "Research Agent",
+            "Research Agent",
             "↓",
-       "Data Agent",
+            "Data Agent",
             "↓",
-       "Writer Agent",
+            "Writer Agent",
             "↓",
-       "Reviewer Agent",
+            "Reviewer Agent",
         ],
         highlights: [
             "Execution logs and tool calls."
@@ -315,6 +315,7 @@ export const projectsData: Project[] = [
         skills: [
             "AI",
             "FastAPI",
+            "pgvector"
         ],
         liveDemoLink: "",
         github: "",
@@ -326,11 +327,12 @@ export const projectsData: Project[] = [
             "Documentation",
         ],
         highlights: [
-           
+
         ]
     },
-
-    // Level: 2: Full Stack Projects
+    //==========================================================
+    // Level: 2: Full Stack Projects 
+    //==========================================================
     {
         id: "procurement-management-platform",
         level: 2,
@@ -538,7 +540,9 @@ export const projectsData: Project[] = [
         highlights: [
         ]
     },
+    //==========================================================
     // Level: 1: Frontend Projects
+    //==========================================================
     {
         id: "enterprise-operations-command Center",
         featured: true,
