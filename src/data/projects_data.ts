@@ -330,6 +330,34 @@ export const projectsData: Project[] = [
 
         ]
     },
+    {
+        id: "ai-security-log-analyzer",
+        level: 3,
+        featured: false,
+        title: "AI Security Log Analyzer",
+        slug: "AI Security Log Analyzer",
+        description:
+            "Upload application logs and detect suspicious activity.",
+        thumbImg: "",
+        technologies: ["React", "TypeScript", "MUI", "Python", "FastAPI", "PostgreSQL"],
+        skills: [
+            "AI",
+            "FastAPI",
+        ],
+        liveDemoLink: "",
+        github: "",
+        features: [
+            "Detect:",
+            "Brute force",
+            "Repeated failed login",
+            "Suspicious IP",
+            "Abnormal traffic",
+            "Permission violations",
+        ],
+        highlights: [
+
+        ]
+    },
     //==========================================================
     // Level: 2: Full Stack Projects 
     //==========================================================
