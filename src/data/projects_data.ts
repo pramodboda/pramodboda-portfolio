@@ -94,7 +94,7 @@ export const projectsData: Project[] = [
         ]
     },
     {
-        id: "ai-code-review Assistant",
+        id: "ai-code-review-assistant",
         level: 3,
         featured: false,
         title: "AI Code Review Assistant",
@@ -105,6 +105,7 @@ export const projectsData: Project[] = [
         technologies: ["React", "TypeScript", "MUI", "Python", "GitHub API", "LLM"],
         skills: [
             "AI",
+            "GitHub API",
             "LLM"
         ],
         liveDemoLink: "",
@@ -132,7 +133,9 @@ export const projectsData: Project[] = [
         thumbImg: "",
         technologies: ["React", "TypeScript", "MUI", "Python", "FastAPI", "PostgreSQL", "LLM"],
         skills: [
+            "Python",
             "AI",
+            "FastAPI",
             "LLM"
         ],
         liveDemoLink: "",
@@ -158,7 +161,8 @@ export const projectsData: Project[] = [
         technologies: ["React", "TypeScript", "MUI", "Node.js", "Python", "PostgreSQL"],
         skills: [
             "AI",
-            "Agents"
+            "Agents",
+            "LLM"
         ],
         liveDemoLink: "",
         github: "",
@@ -175,7 +179,7 @@ export const projectsData: Project[] = [
         ]
     },
     {
-        id: "AI Document Intelligence Platform",
+        id: "ai-document-intelligence-platform",
         level: 3,
         featured: false,
         title: "AI Document Intelligence Platform",
@@ -262,6 +266,67 @@ export const projectsData: Project[] = [
         ],
         highlights: [
             "AI engineering project"
+        ]
+    },
+    {
+        id: "ai-agent-workflow-platform",
+        level: 3,
+        featured: false,
+        title: "AI Agent Workflow Platform",
+        slug: "AI Agent Workflow Platform",
+        description:
+            "A simplified AI agent orchestration system",
+        thumbImg: "",
+        technologies: ["React", "TypeScript", "MUI", "Python", "FastAPI", "PostgreSQL/pgvector"],
+        skills: [
+            "AI",
+            "FastAPI",
+        ],
+        liveDemoLink: "",
+        github: "",
+        features: [
+            "Example:",
+            "User Request",
+            "↓",
+       "Planner Agent",
+            "↓",
+       "Research Agent",
+            "↓",
+       "Data Agent",
+            "↓",
+       "Writer Agent",
+            "↓",
+       "Reviewer Agent",
+        ],
+        highlights: [
+            "Execution logs and tool calls."
+        ]
+    },
+    {
+        id: "ai-personal-knowledge-management-system",
+        level: 3,
+        featured: false,
+        title: "AI Personal Knowledge Management System",
+        slug: "AI Personal Knowledge Management System",
+        description:
+            "Upload any text document file and Then ask questions across your entire knowledge base.",
+        thumbImg: "",
+        technologies: ["React", "TypeScript", "MUI", "Python", "FastAPI", "pgvector"],
+        skills: [
+            "AI",
+            "FastAPI",
+        ],
+        liveDemoLink: "",
+        github: "",
+        features: [
+            "Upload:",
+            "PDFs",
+            "Notes",
+            "Articles",
+            "Documentation",
+        ],
+        highlights: [
+           
         ]
     },
 
