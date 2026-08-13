@@ -20,7 +20,7 @@ export default function AppLoaderComponent() {
                 alignItems: "center",
                 justifyContent: "center",
                 overflow: "hidden",
-                padding: "1rem"
+                // padding: "1rem"
             }}
         >
             <SplitTextAnimation text="Pramod Boda" />
