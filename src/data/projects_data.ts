@@ -5,8 +5,6 @@ import type { Project } from "../types/app.types";
 
 export const projectsData: Project[] = [
 
-
-
     //==========================================================
     // Level 4 
     //==========================================================
