@@ -4,6 +4,7 @@ import { useTheme } from "@mui/material/styles";
 
 import CircularText from "../../components/animations/CircularText/CircularText";
 import heroImg from "../../assets/hero.png";
+import computerztech from "../../assets/computerztech.svg?react";
 
 export default function HeroRight() {
   const theme = useTheme();
@@ -18,7 +19,7 @@ export default function HeroRight() {
       }}
     >
       {/* Soft blurred accent blob behind the portrait */}
-      <Box
+      {/* <Box
         sx={{
           position: "absolute",
           inset: -20,
@@ -27,9 +28,9 @@ export default function HeroRight() {
           filter: "blur(10px)",
           zIndex: 0,
         }}
-      />
+      /> */}
 
-      <Box
+      {/* <Box
         component="img"
         src={heroImg}
         alt="Portrait of Pramod Boda"
@@ -46,7 +47,10 @@ export default function HeroRight() {
               ? "0 30px 60px -30px rgba(20, 18, 26, 0.35)"
               : "0 30px 60px -30px rgba(0, 0, 0, 0.7)",
         }}
-      />
+      /> */}
+      <computerztech />
+
+
 
       {/* Rotating badge overlapping the bottom-right of the portrait */}
       <Box
