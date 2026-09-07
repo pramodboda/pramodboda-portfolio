@@ -4,7 +4,8 @@ import { useTheme } from "@mui/material/styles";
 
 import CircularText from "../../components/animations/CircularText/CircularText";
 import heroImg from "../../assets/hero.png";
-import computerztech from "../../assets/computerztech.svg?react";
+import computerztech from "../../assets/computerztech.svg";
+import computerztechWebm from "../../assets/computerztech.webm";
 
 export default function HeroRight() {
   const theme = useTheme();
@@ -49,6 +50,8 @@ export default function HeroRight() {
         }}
       /> */}
       <computerztech />
+      <img src={computerztech} alt="hero tech image" style={{ width: "100%" }} />
+      {/* <img src={computerztechWebm} alt="hero tech image" width="600" /> */}
 
 
 
