@@ -21,16 +21,19 @@ const IMG_H = 976;
 
 // Pupil socket centers, measured directly from the source art
 const EYES = {
-  left: { cx: 299, cy: 291 },
+  // left: { cx: 299, cy: 291 }, -old
+  // right: { cx: 409, cy: 292 },
+
+  left: { cx: 295, cy: 292 },
   right: { cx: 409, cy: 292 },
 };
-const PUPIL_CROP = 68; // each pupil PNG is 68x68, centered on its socket
+// const PUPIL_CROP = 68; // each pupil PNG is 68x68, centered on its socket
+const PUPIL_CROP = 42; // each pupil PNG is 48x48, centered on its socket
 
 // How far the pupil is allowed to travel inside the socket (px, in source-image space)
-const PUPIL_RANGE = 6;
-// How much the head/body layer tilts and shifts toward the cursor
-const HEAD_TILT_DEG = 3;
-const HEAD_SHIFT_PX = 5;
+// const PUPIL_RANGE = 6;
+const PUPIL_RANGE = 5;
+
 
 function toPct(px, total) {
   return (px / total) * 100;
@@ -68,11 +71,7 @@ export default function Character() {
       cur.x += (tgt.x - cur.x) * 0.08;
       cur.y += (tgt.y - cur.y) * 0.08;
 
-      if (bodyRef.current) {
-        bodyRef.current.style.transform =
-          `rotate(${cur.x * HEAD_TILT_DEG}deg) ` +
-          `translate(${cur.x * HEAD_SHIFT_PX}px, ${cur.y * HEAD_SHIFT_PX * 0.6}px)`;
-      }
+
       if (pupilLRef.current) {
         pupilLRef.current.style.transform =
           `translate(${cur.x * PUPIL_RANGE}px, ${cur.y * PUPIL_RANGE}px)`;
@@ -146,7 +145,7 @@ export default function Character() {
       </div>
 
       {/* Hair — sits on top, sways in an independent wind loop */}
-      <img
+      {/* <img
         src="/character/hair.png"
         alt=""
         className="hair-sway"
@@ -166,11 +165,11 @@ export default function Character() {
           animation: windSway 3.6s ease-in-out infinite;
         }
         @keyframes windSway {
-          0%   { transform: rotate(-1.6deg) translateX(-1px); }
-          50%  { transform: rotate(1.8deg)  translateX(1.5px); }
-          100% { transform: rotate(-1.6deg) translateX(-1px); }
+          0%   { transform: rotate(-1deg) translateX(-0.5px); }
+          50%  { transform: rotate(1.3deg)  translateX(1px); }
+          100% { transform: rotate(-1deg) translateX(-0.5px); }
         }
-      `}</style>
+      `}</style> */}
     </div>
   );
 }

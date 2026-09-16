@@ -3,9 +3,7 @@ import Box from "@mui/material/Box";
 import { useTheme } from "@mui/material/styles";
 
 import CircularText from "../../components/animations/CircularText/CircularText";
-import heroImg from "../../assets/hero.png";
-import computerztech from "../../assets/computerztech.svg";
-import computerztechWebm from "../../assets/computerztech.webm";
+
 import Character from "../../components/Character";
 
 export default function HeroRight() {
@@ -20,41 +18,7 @@ export default function HeroRight() {
         mx: "auto",
       }}
     >
-      {/* Soft blurred accent blob behind the portrait */}
-      {/* <Box
-        sx={{
-          position: "absolute",
-          inset: -20,
-          borderRadius: "50%",
-          background: `radial-gradient(circle at 30% 30%, ${theme.palette.primary.main}33, transparent 70%)`,
-          filter: "blur(10px)",
-          zIndex: 0,
-        }}
-      /> */}
-
-      {/* <Box
-        component="img"
-        src={heroImg}
-        alt="Portrait of Pramod Boda"
-        sx={{
-          position: "relative",
-          zIndex: 1,
-          width: "100%",
-          height: "100%",
-          objectFit: "cover",
-          borderRadius: "50%",
-          border: `1px solid ${theme.palette.divider}`,
-          boxShadow:
-            theme.palette.mode === "light"
-              ? "0 30px 60px -30px rgba(20, 18, 26, 0.35)"
-              : "0 30px 60px -30px rgba(0, 0, 0, 0.7)",
-        }}
-      /> */}
-      <computerztech />
       <Character />
-      <img src={computerztech} alt="hero tech image" style={{ width: "100%" }} />
-      {/* <img src={computerztechWebm} alt="hero tech image" width="600" /> */}
-
 
 
       {/* Rotating badge overlapping the bottom-right of the portrait */}
