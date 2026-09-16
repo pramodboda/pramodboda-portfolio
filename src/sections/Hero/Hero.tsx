@@ -115,12 +115,12 @@ export function HeroSection() {
       </div> */}
 
       <div className="hero-content">
-        <Box id="top" component="section" sx={{ pt: { xs: 14, md: 18 }, pb: { xs: 8, md: 10 } }}>
+        <Box id="top" component="section" >
           <Grid container spacing={{ xs: 6, md: 4 }} sx={{ alignItems: "center" }}>
-            <Grid size={{ xs: 12, md: 7 }} sx={{ order: { xs: 2, md: 1 } }}>
+            <Grid size={{ xs: 12, lg: 7 }} sx={{ order: { xs: 2, md: 1 } }}>
               <HeroLeft />
             </Grid>
-            <Grid size={{ xs: 12, md: 5 }} sx={{ order: { xs: 1, md: 2 } }}>
+            <Grid size={{ xs: 12, lg: 5 }} sx={{ order: { xs: 1, md: 2 } }}>
               <HeroRight />
             </Grid>
           </Grid>

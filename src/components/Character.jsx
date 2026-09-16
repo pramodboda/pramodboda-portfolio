@@ -144,32 +144,7 @@ export default function Character() {
         />
       </div>
 
-      {/* Hair — sits on top, sways in an independent wind loop */}
-      {/* <img
-        src="/character/hair.png"
-        alt=""
-        className="hair-sway"
-        style={{
-          position: "absolute",
-          inset: 0,
-          width: "100%",
-          height: "100%",
-          pointerEvents: "none",
-        }}
-        draggable={false}
-      />
-
-      <style>{`
-        .hair-sway {
-          transform-origin: 50% 78%;
-          animation: windSway 3.6s ease-in-out infinite;
-        }
-        @keyframes windSway {
-          0%   { transform: rotate(-1deg) translateX(-0.5px); }
-          50%  { transform: rotate(1.3deg)  translateX(1px); }
-          100% { transform: rotate(-1deg) translateX(-0.5px); }
-        }
-      `}</style> */}
+   
     </div>
   );
 }
