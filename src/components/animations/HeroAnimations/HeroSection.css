@@ -38,12 +38,12 @@
   position: absolute;
   inset: 0;
   z-index: 0;
-  background: radial-gradient(
+  /* background: radial-gradient(
       60% 50% at 18% 30%,
       rgba(124, 140, 255, 0.08),
       transparent 70%
     ),
-    radial-gradient(45% 40% at 85% 80%, rgba(255, 180, 84, 0.06), transparent 70%);
+    radial-gradient(45% 40% at 85% 80%, rgba(255, 180, 84, 0.06), transparent 70%); */
   pointer-events: none;
 }
 

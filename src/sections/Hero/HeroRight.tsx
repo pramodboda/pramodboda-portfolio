@@ -42,6 +42,7 @@ export default function HeroRight() {
           justifyContent: "center",
         }}
       >
+
         <CircularText
           text="UI/UX • FRONTEND • BACKEND • "
           onHover="speedUp"

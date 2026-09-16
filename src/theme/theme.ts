@@ -85,13 +85,13 @@ export const getAppTheme = (mode: ColorMode) => {
       },
       body1: {
         // Main paragraph copy — optimized for reading comfort.
-        fontWeight: 400,
+        fontWeight: 500,
         fontSize: "1rem",
         lineHeight: 1.7,
         color: palette.text.secondary,
       },
       body2: {
-        fontWeight: 400,
+        fontWeight: 500,
         fontSize: "0.875rem",
         lineHeight: 1.65,
         color: palette.text.secondary,

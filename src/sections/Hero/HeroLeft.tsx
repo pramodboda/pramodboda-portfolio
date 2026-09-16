@@ -43,7 +43,7 @@ export default function HeroLeft() {
         Pramod Boda
       </Typography>
 
-      <Typography variant="subtitle1" sx={{ mb: 2.5 }}>
+      <Typography variant="subtitle1" sx={{ mb: 2.5 }} >
         Senior Frontend Engineer &middot; React &amp; TypeScript Specialist
       </Typography>
 

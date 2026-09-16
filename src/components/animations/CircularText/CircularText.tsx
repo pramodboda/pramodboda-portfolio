@@ -120,6 +120,7 @@ const CircularText: React.FC<CircularTextProps> = ({
             style={{ transform, WebkitTransform: transform }}
           >
             <span>{letter}</span>
+
           </Typography>
         );
       })}
