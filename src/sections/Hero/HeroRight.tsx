@@ -42,7 +42,7 @@ export default function HeroRight() {
           justifyContent: "center",
         }}
       >
-
+        <ion-icon name="arrow-down-sharp" style={{ fontSize: "15rem" }}></ion-icon>
         <CircularText
           text="UI/UX • FRONTEND • BACKEND • "
           onHover="speedUp"
