@@ -427,12 +427,12 @@ export const projectsData: Project[] = [
             "Upload video → system analyzes scenes.",
         thumbImg: "",
         technologies: ["React", "TypeScript", "MUI", "Python", "FastAPI",
-        "OpenCV",
-        "FFmpeg",
-        "Whisper",
-        "ML/LLM",
-        "PostgreSQL",
-    ],
+            "OpenCV",
+            "FFmpeg",
+            "Whisper",
+            "ML/LLM",
+            "PostgreSQL",
+        ],
         skills: [
             "AI",
             "FastAPI",
@@ -674,6 +674,7 @@ export const projectsData: Project[] = [
     {
         id: "enterprise-operations-command Center",
         featured: true,
+        categories: ["dashboard", "fullstack"],
         title: "Enterprise Operations Command Center",
         slug: "Enterprise Operations Command Center",
         description:
@@ -684,8 +685,17 @@ export const projectsData: Project[] = [
         ],
         liveDemoLink: "",
         github: "",
+        features: [
+            "Global filters",
+            "Date range filtering",
+            "Saved dashboard views",
+            "Configurable widgets",
+            "Export to CSV/PDF",
+            "Responsive layout",
+            "Role-based dashboard configuration",
+        ],
         highlights: [
-            "Advanced React architecture", "state management", "data visualization", "performance and real-time UI"
+            "Advanced React architecture", "state management", "data visualization", "reusable components", "API integration", "performance and real-time UI"
         ]
 
 
@@ -869,7 +879,7 @@ export const projectsData: Project[] = [
         description:
             "A sophisticated project management application rather than a basic Trello clone.",
         level: 1,
-        technologies: ["React", "TypeScript", "Node.js", "PostgreSQL", "Redis"],
+        technologies: ["React", "TypeScript", "Node.js", "Socket.IO", "PostgreSQL", "Redis"],
         skills: [],
         liveDemoLink: "",
         github: "",
@@ -881,7 +891,12 @@ export const projectsData: Project[] = [
             "Permissions",
             "Activity timeline",
             "Notifications",
-            "Search"],
+            "Search",
+            "Real-Time Kanban Collaboration",
+            "Live cursors",
+            "Presence",
+            "Optimistic updates",
+            "Conflict handling"],
         highlights: [
         ]
     },
