@@ -45,6 +45,7 @@ export const projectsData: Project[] = [
         thumbImg: "",
         technologies: ["React", "TypeScript", "MUI", "Node.js", "PostgreSQL"],
         skills: [
+
         ],
         liveDemoLink: "",
         github: "",
@@ -58,6 +59,123 @@ export const projectsData: Project[] = [
             "Persistent inbox"
         ],
         highlights: [
+            "Email",
+            "Push",
+            "In-app",
+            "SMS simulation",
+        ]
+    },
+    {
+        id: "url-shortener-analytics-platform",
+        level: 4,
+        featured: false,
+        title: "URL Shortener + Analytics Platform",
+        slug: "URL Shortener + Analytics Platform",
+        description:
+            "Don't make a basic Bitly clone.",
+        thumbImg: "",
+        technologies: ["React", "TypeScript", "MUI", "Node.js", "Redis", "PostgreSQL"],
+        skills: [
+
+        ],
+        liveDemoLink: "",
+        github: "",
+        features: [
+            "Custom aliases",
+            "Expiration",
+            "Click analytics",
+            "Geographic analytics",
+            "Device analytics",
+            "Rate limiting",
+            "QR codes",
+        ],
+        highlights: [
+        ]
+    },
+    {
+        id: "distributed-job-scheduler",
+        level: 4,
+        featured: false,
+        title: "Distributed Job Scheduler",
+        slug: "Distributed Job Scheduler",
+        description:
+            "Build a mini background-job platform. Workers execute jobs.",
+        thumbImg: "",
+        technologies: ["React", "TypeScript", "MUI", "Node.js", "Redis", "PostgreSQL"],
+        skills: [
+
+        ],
+        liveDemoLink: "",
+        github: "",
+        features: [
+            "Users schedule:",
+
+            "Every 5 minutes",
+            "Every hour",
+            "Every day",
+            "Specific date",
+        ],
+        highlights: [
+            //    " Recruiter sees:",
+            "Queues", "workers", "retries", "scheduling and distributed processing"
+        ]
+    },
+    {
+        id: "realtime-chat-nfrastructure",
+        level: 4,
+        featured: false,
+        title: "Real-Time Chat Infrastructure",
+        slug: "Real-Time Chat Infrastructure",
+        description:
+            "Build Slack-like messaging.",
+        thumbImg: "",
+        technologies: ["React", "TypeScript", "MUI", "Node.js", "WebSocket", "Redis", "PostgreSQL"],
+        skills: [
+
+        ],
+        liveDemoLink: "",
+        github: "",
+        features: [
+            "1-to-1",
+            "Groups",
+            "Presence",
+            "Typing indicator",
+            "Read receipts",
+            "Message search",
+            "File sharing",
+            "Notifications",
+        ],
+        highlights: [
+            //    " Recruiter sees:",
+            "Queues", "workers", "retries", "scheduling and distributed processing"
+        ]
+    },
+    {
+        id: "api0-rate-limiting-and-monitoring-dashboard",
+        level: 4,
+        featured: false,
+        title: "⭐🌐 API Rate Limiting & Monitoring Dashboard",
+        slug: "API Rate Limiting & Monitoring Dashboard",
+        description:
+            "Build a service that sits in front of APIs.",
+        thumbImg: "",
+        technologies: ["React", "TypeScript", "MUI", "Node.js", "Redis", "PostgreSQL"],
+        skills: [
+
+        ],
+        liveDemoLink: "",
+        github: "",
+        features: [
+            "Requests/min",
+            "Errors",
+            "Latency",
+            "Top endpoints",
+            "Top clients",
+            "Rate-limit violations",
+        ],
+        highlights: [
+            //    " Recruiter sees:",
+            "Queues", "workers", "retries", "scheduling and distributed processing"
         ]
     },
     //==========================================================
