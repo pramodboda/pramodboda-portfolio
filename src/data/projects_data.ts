@@ -12,6 +12,7 @@ export const projectsData: Project[] = [
         id: "real-time-logistics-tracking-system",
         level: 4,
         featured: false,
+        isReady: false,
         title: "Real-Time Logistics Tracking System",
         slug: "Real-Time Logistics Tracking System",
         description:
@@ -38,6 +39,7 @@ export const projectsData: Project[] = [
         id: "notification-infrastructure",
         level: 4,
         featured: false,
+        isReady: false,
         title: "Notification Infrastructure",
         slug: "Notification Infrastructure",
         description:
@@ -69,6 +71,7 @@ export const projectsData: Project[] = [
         id: "url-shortener-analytics-platform",
         level: 4,
         featured: false,
+        isReady: false,
         title: "URL Shortener + Analytics Platform",
         slug: "URL Shortener + Analytics Platform",
         description:
@@ -96,6 +99,7 @@ export const projectsData: Project[] = [
         id: "distributed-job-scheduler",
         level: 4,
         featured: false,
+        isReady: false,
         title: "Distributed Job Scheduler",
         slug: "Distributed Job Scheduler",
         description:
@@ -124,6 +128,7 @@ export const projectsData: Project[] = [
         id: "realtime-chat-nfrastructure",
         level: 4,
         featured: false,
+        isReady: false,
         title: "Real-Time Chat Infrastructure",
         slug: "Real-Time Chat Infrastructure",
         description:
@@ -154,6 +159,7 @@ export const projectsData: Project[] = [
         id: "api0-rate-limiting-and-monitoring-dashboard",
         level: 4,
         featured: false,
+        isReady: false,
         title: "⭐🌐 API Rate Limiting & Monitoring Dashboard",
         slug: "API Rate Limiting & Monitoring Dashboard",
         description:
@@ -184,7 +190,7 @@ export const projectsData: Project[] = [
     {
         id: "enterprise-ai-knowledge-assistant",
         level: 3,
-        featured: true,
+        featured: false,
         title: "Enterprise AI Knowledge Assistant",
         slug: "Enterprise AI Knowledge Assistant",
         description:
@@ -211,6 +217,7 @@ export const projectsData: Project[] = [
         id: "ai-resume-analyzer",
         level: 3,
         featured: false,
+        isReady: false,
         title: "AI Resume Analyzer",
         slug: "AI Resume Analyzer",
         description:
@@ -239,6 +246,7 @@ export const projectsData: Project[] = [
         id: "ai-code-review-assistant",
         level: 3,
         featured: false,
+        isReady: false,
         title: "AI Code Review Assistant",
         slug: "AI Code Review Assistant",
         description:
@@ -268,6 +276,7 @@ export const projectsData: Project[] = [
         id: "ai-sql-analyst",
         level: 3,
         featured: false,
+        isReady: false,
         title: "AI SQL Analyst",
         slug: "AI SQL Analyst",
         description:
@@ -295,6 +304,7 @@ export const projectsData: Project[] = [
         id: "ai-customer-support-agent",
         level: 3,
         featured: false,
+        isReady: false,
         title: "AI Customer Support Agent",
         slug: "AI Customer Support Agent",
         description:
@@ -324,6 +334,7 @@ export const projectsData: Project[] = [
         id: "ai-document-intelligence-platform",
         level: 3,
         featured: false,
+        isReady: false,
         title: "AI Document Intelligence Platform",
         slug: "AI Document Intelligence Platform",
         description:
@@ -355,6 +366,7 @@ export const projectsData: Project[] = [
         id: "ai-meeting-intelligence-platform",
         level: 3,
         featured: false,
+        isReady: false,
         title: "AI Meeting Intelligence Platform",
         slug: "AI Meeting Intelligence Platform",
         description:
@@ -385,6 +397,7 @@ export const projectsData: Project[] = [
         id: "rag-evaluation-platform",
         level: 3,
         featured: false,
+        isReady: false,
         title: "RAG Evaluation Platform",
         slug: "RAG Evaluation Platform",
         description:
@@ -414,6 +427,7 @@ export const projectsData: Project[] = [
         id: "ai-agent-workflow-platform",
         level: 3,
         featured: false,
+        isReady: false,
         title: "AI Agent Workflow Platform",
         slug: "AI Agent Workflow Platform",
         description:
@@ -448,6 +462,7 @@ export const projectsData: Project[] = [
         id: "ai-personal-knowledge-management-system",
         level: 3,
         featured: false,
+        isReady: false,
         title: "AI Personal Knowledge Management System",
         slug: "AI Personal Knowledge Management System",
         description:
@@ -476,6 +491,7 @@ export const projectsData: Project[] = [
         id: "ai-security-log-analyzer",
         level: 3,
         featured: false,
+        isReady: false,
         title: "AI Security Log Analyzer",
         slug: "AI Security Log Analyzer",
         description:
@@ -504,6 +520,7 @@ export const projectsData: Project[] = [
         id: "ai-product-requirement-analyzer",
         level: 3,
         featured: false,
+        isReady: false,
         title: "AI Product Requirement Analyzer",
         slug: "AI Product Requirement Analyzer",
         description:
@@ -539,6 +556,7 @@ export const projectsData: Project[] = [
         id: "ai-video-intelligence-platform",
         level: 3,
         featured: false,
+        isReady: false,
         title: "AI Video Intelligence Platform",
         slug: "AI Video Intelligence Platform",
         description:
@@ -583,6 +601,7 @@ export const projectsData: Project[] = [
         id: "procurement-management-platform",
         level: 2,
         featured: false,
+        isReady: false,
         title: "Procurement Management Platform",
         slug: "Procurement Management Platform",
         description:
@@ -612,6 +631,7 @@ export const projectsData: Project[] = [
         id: "inventory-management-system",
         level: 2,
         featured: false,
+        isReady: false,
         title: "Inventory Management System",
         slug: "Inventory Management System",
         description:
@@ -636,6 +656,7 @@ export const projectsData: Project[] = [
         id: "multi-tenant-saas-platform",
         level: 2,
         featured: false,
+        isReady: false,
         title: "Multi-Tenant SaaS Platform",
         slug: "Multi-Tenant SaaS Platform",
         description:
@@ -660,6 +681,7 @@ export const projectsData: Project[] = [
         id: "identity and-access-management-platform",
         level: 2,
         featured: false,
+        isReady: false,
         title: "Identity & Access Management Platform",
         slug: "Identity & Access Management Platform",
         description:
@@ -686,6 +708,7 @@ export const projectsData: Project[] = [
         id: "approval-workflow-engine",
         level: 2,
         featured: false,
+        isReady: false,
         title: "Approval Workflow Engine",
         slug: "Approval Workflow Engine",
         description:
@@ -713,6 +736,7 @@ export const projectsData: Project[] = [
         id: "real-time-collaborative-whiteboard",
         level: 2,
         featured: true,
+        isReady: true,
         title: "Real-Time Collaborative Whiteboard",
         slug: "Real-Time Collaborative Whiteboard",
         description:
@@ -736,6 +760,7 @@ export const projectsData: Project[] = [
         id: "job-application-tracking-system",
         level: 2,
         featured: false,
+        isReady: false,
         title: "Job Application Tracking System",
         slug: "Job Application Tracking System",
         description:
@@ -763,6 +788,7 @@ export const projectsData: Project[] = [
         id: "digital-asset-management-system",
         level: 2,
         featured: false,
+        isReady: false,
         title: "Digital Asset Management System",
         slug: "Digital Asset Management System",
         description:
@@ -786,190 +812,10 @@ export const projectsData: Project[] = [
         highlights: [
         ]
     },
-    //==========================================================
-    // Level: 1: Frontend Projects
-    //==========================================================
-    {
-        id: "enterprise-operations-command Center",
-        featured: true,
-        categories: ["dashboard", "fullstack"],
-        title: "Enterprise Operations Command Center",
-        slug: "Enterprise Operations Command Center",
-        description:
-            "A highly interactive enterprise dashboard for monitoring multiple business operations in real time. Include KPI cards, drill-down analytics, filters, saved views, configurable widgets, alerts and role-based dashboards.",
-        level: 1,
-        technologies: ["React", "TypeScript", "MUI", "Zustand", "TanStack Query", "Recharts", "Node.js", "PostgreSQL", "WebSocket/Socket.IO"],
-        skills: [
-        ],
-        liveDemoLink: "",
-        github: "",
-        features: [
-            "Global filters",
-            "Date range filtering",
-            "Saved dashboard views",
-            "Configurable widgets",
-            "Export to CSV/PDF",
-            "Responsive layout",
-            "Role-based dashboard configuration",
-        ],
-        highlights: [
-            "Advanced React architecture", "state management", "data visualization", "reusable components", "API integration", "performance and real-time UI"
-        ]
-
-
-    },
-    {
-        id: "advanced-data-grid",
-        featured: false,
-        title: "Advanced Data Grid / Spreadsheet Application",
-        slug: "Advanced Data Grid / Spreadsheet Application",
-        description:
-            "Build a mini Excel-like web application supporting large datasets.",
-        level: 1,
-        technologies: ["React", "TypeScript", "TanStack Table", "Web Workers", "Node.js", "PostgreSQL"],
-        skills: [
-
-        ],
-        liveDemoLink: "",
-        github: "",
-        features: ["Virtual scrolling",
-            "Column resizing",
-            "Sorting",
-            "Filtering",
-            "Inline editing",
-            "CSV import/export",
-            "Formula support",
-            "Keyboard navigation",
-            "Pagination"],
-
-        highlights: [
-            "Advanced React architecture", "state management", "data visualization", "Real-time UI and Frontend performance engineering."
-        ]
-    },
-
-    {
-        id: "enterprise-workflow-builder",
-        featured: false,
-        title: "Enterprise Workflow Builder",
-        slug: "Enterprise Workflow Builder",
-        description:
-            "Visual drag-and-drop workflow builder similar to simplified Zapier/Jira automation.",
-        level: 1,
-        technologies: ["React", "TypeScript", "React Flow", "Zustand", "Node.js", "PostgreSQL"],
-        skills: [
-
-        ],
-        liveDemoLink: "",
-        github: "",
-        features: [],
-        highlights: [
-            "Complex UI architecture and business logic."
-        ]
-    },
-    {
-        id: "design-system-playground",
-        featured: false,
-        title: "Design System Playground",
-        slug: "Design System Playground",
-        description:
-            "Build your own enterprise design system with reusable components, themes and accessibility testing.",
-        level: 1,
-        technologies: ["React", "TypeScript", "MUI", "Storybook", "Vitest", "Playwright"],
-        skills: [
-
-        ],
-        liveDemoLink: "",
-        github: "",
-        features: ["Buttons",
-            "Forms",
-            "Tables",
-            "Dialogs",
-            "Charts",
-            "Data grids",
-            "Dark/light themes",
-            "Accessibility",
-            "Responsive layouts"],
-        highlights: [
-            "Senior frontend engineering rather than just page building."
-        ]
-    },
-    {
-        id: "performance-monitoring-web-app",
-        featured: false,
-        title: "Performance Monitoring Web App",
-        slug: "Performance Monitoring Web App",
-        description:
-            "A frontend application that analyzes website performance and displays Core Web Vitals and performance metrics.",
-        level: 1,
-        technologies: ["React", "TypeScript", "Lighthouse APIs", "Node.js", "PostgreSQL", "Recharts"],
-
-        skills: [
-
-        ],
-        liveDemoLink: "",
-        github: "",
-        features: ["LCP",
-            "CLS",
-            "INP",
-            "TTFB",
-            "Performance history",
-            "URL comparison",
-            "Performance score",],
-        highlights: [
-
-        ]
-    },
-    {
-        id: "accessibility-audit-platform",
-        featured: false,
-        title: "Accessibility Audit Platform",
-        slug: "Accessibility Audit Platform",
-        description:
-            "User enters a website URL and receives an accessibility report.",
-        level: 1,
-        technologies: ["React", "TypeScript", "Node.js", "Playwright", "axe-core", "PostgreSQL"],
-
-        skills: [
-
-        ],
-        liveDemoLink: "",
-        github: "",
-        features: ["WCAG violations",
-            "Severity classification",
-            "Element locator",
-            "Suggested fixes",
-            "Historical reports"],
-
-
-        highlights: [
-            "Accessibility + automation + backend engineering."
-        ]
-    },
-    {
-        id: "developer-documentation-platform",
-        featured: false,
-        title: "Developer Documentation Platform",
-        slug: "Developer Documentation Platform",
-        description:
-            "Build a modern documentation platform similar to an internal engineering knowledge portal.",
-        technologies: ["React/Next.js", "TypeScript", "Node.js", "PostgreSQL", "Markdown/MDX"],
-        skills: [],
-        liveDemoLink: "",
-        github: "",
-        features: ["Search",
-            "Versioning",
-            "Table of contents",
-            "Code blocks",
-            "Authentication",
-            "Permissions",
-            "Comments",
-            "Document history",],
-        highlights: [
-        ]
-    },
     {
         id: "real-time-incident-management-dashboard",
         featured: false,
+        isReady: false,
         title: "Real-Time Incident Management Dashboard",
         slug: "Real-Time Incident Management Dashboard",
         description:
@@ -991,7 +837,9 @@ export const projectsData: Project[] = [
     },
     {
         id: "advanced-kanban-project-management-system",
+        level: 1,
         featured: false,
+        isReady: false,
         title: "Advanced Kanban Project Management System",
         slug: "Advanced Kanban Project Management System",
         description:
@@ -1022,6 +870,7 @@ export const projectsData: Project[] = [
         id: "employee-service-management-platform",
         level: 2,
         featured: false,
+        isReady: false,
         title: "Employee Service Management Platform",
         slug: "Employee Service Management Platform",
         description:
@@ -1043,6 +892,7 @@ export const projectsData: Project[] = [
         id: "contract-lifecycle-management-system",
         level: 2,
         featured: false,
+        isReady: false,
         title: "Contract Lifecycle Management System",
         slug: "Contract Lifecycle Management System",
         description:
@@ -1066,6 +916,7 @@ export const projectsData: Project[] = [
         id: "customer-support-ticketing-platform",
         level: 2,
         featured: false,
+        isReady: false,
         title: "Customer Support / Ticketing Platform",
         slug: "Customer Support / Ticketing Platform",
         description:
@@ -1091,6 +942,7 @@ export const projectsData: Project[] = [
         id: "api-management-portal",
         level: 2,
         featured: false,
+        isReady: false,
         title: "API Management Portal",
         slug: "API Management Portal",
         description:
@@ -1115,6 +967,7 @@ export const projectsData: Project[] = [
         id: "expense-management-system",
         level: 2,
         featured: false,
+        isReady: false,
         title: "Expense Management System",
         slug: "Expense Management System",
         description:
@@ -1136,40 +989,19 @@ export const projectsData: Project[] = [
         highlights: [
         ]
     },
-
-
+    //==========================================================
+    // Level: 1: Frontend Projects
     //==========================================================
     {
-        id: 1,
-        title: "Coming Soon JIRA Kind of Project",
-        slug: "Coming Soon JIRA Kind of Project",
-        description:
-            "Kind of Project",
-        featured: false,
-        technologies: ["React", "TypeScript", "Node.js", "PostgreSQL", "Zustand", "React Query", "MUI"],
-        skills: [
-            "Full Stack Development",
-            "State Management",
-            "API Design",
-            "Performance Optimization",
-            "Database Design"
-        ],
-        liveDemoLink: "",
-        //   github: "",
-        //   highlights: [
-        //     "Built entire application solo",
-        //     "Optimized API calls using React Query",
-        //     "Handled large datasets efficiently"
-        //   ]
-    },
-    {
         id: 3,
+        level: 1,
         // thumbImg: "https://res.cloudinary.com/dnwrsbors/image/upload/v1777490962/masonry-gallery-mui_rryhdr.png",
 
         title: "Image Gallery - Masonry Layout",
         description:
             "A responsive and visually dynamic image gallery built using a masonry layout to optimize space utilization and enhance user experience. The application intelligently arranges images of varying heights into seamless columns, eliminating gaps and creating a Pinterest-style layout. The project focuses on performance, responsiveness, and smooth user interactions while handling real-world challenges like asynchronous image loading, layout shifts, and scalability.",
         featured: false,
+        isReady: true,
         technologies: ["React", "TypeScript", "VITE"],
         skills: [
             "UI Integration"
@@ -1186,11 +1018,233 @@ export const projectsData: Project[] = [
 
     },
     {
+        id: "enterprise-operations-command Center",
+        level: 1,
+        featured: true,
+        isReady: true,
+        categories: ["dashboard", "fullstack"],
+        title: "Enterprise Operations Command Center",
+        slug: "Enterprise Operations Command Center",
+        description:
+            "A highly interactive enterprise dashboard for monitoring multiple business operations in real time. Include KPI cards, drill-down analytics, filters, saved views, configurable widgets, alerts and role-based dashboards.",
+        level: 1,
+        technologies: ["React", "TypeScript", "MUI", "Zustand", "TanStack Query", "Recharts", "Node.js", "PostgreSQL", "WebSocket/Socket.IO"],
+        skills: [
+        ],
+        liveDemoLink: "",
+        github: "",
+        features: [
+            "Global filters",
+            "Date range filtering",
+            "Saved dashboard views",
+            "Configurable widgets",
+            "Export to CSV/PDF",
+            "Responsive layout",
+            "Role-based dashboard configuration",
+        ],
+        highlights: [
+            "Advanced React architecture", "state management", "data visualization", "reusable components", "API integration", "performance and real-time UI"
+        ]
+
+
+    },
+    {
+        id: "advanced-data-grid",
+        level: 1,
+        featured: false,
+        isReady: false,
+        title: "Advanced Data Grid / Spreadsheet Application",
+        slug: "Advanced Data Grid / Spreadsheet Application",
+        description:
+            "Build a mini Excel-like web application supporting large datasets.",
+        level: 1,
+        technologies: ["React", "TypeScript", "TanStack Table", "Web Workers", "Node.js", "PostgreSQL"],
+        skills: [
+
+        ],
+        liveDemoLink: "",
+        github: "",
+        features: ["Virtual scrolling",
+            "Column resizing",
+            "Sorting",
+            "Filtering",
+            "Inline editing",
+            "CSV import/export",
+            "Formula support",
+            "Keyboard navigation",
+            "Pagination"],
+
+        highlights: [
+            "Advanced React architecture", "state management", "data visualization", "Real-time UI and Frontend performance engineering."
+        ]
+    },
+
+    {
+        id: "enterprise-workflow-builder",
+        level: 1,
+        featured: false,
+        isReady: false,
+        title: "Enterprise Workflow Builder",
+        slug: "Enterprise Workflow Builder",
+        description:
+            "Visual drag-and-drop workflow builder similar to simplified Zapier/Jira automation.",
+        level: 1,
+        technologies: ["React", "TypeScript", "React Flow", "Zustand", "Node.js", "PostgreSQL"],
+        skills: [
+
+        ],
+        liveDemoLink: "",
+        github: "",
+        features: [],
+        highlights: [
+            "Complex UI architecture and business logic."
+        ]
+    },
+    {
+        id: "design-system-playground",
+        level: 1,
+        featured: false,
+        isReady: false,
+        title: "Design System Playground",
+        slug: "Design System Playground",
+        description:
+            "Build your own enterprise design system with reusable components, themes and accessibility testing.",
+        level: 1,
+        technologies: ["React", "TypeScript", "MUI", "Storybook", "Vitest", "Playwright"],
+        skills: [
+
+        ],
+        liveDemoLink: "",
+        github: "",
+        features: ["Buttons",
+            "Forms",
+            "Tables",
+            "Dialogs",
+            "Charts",
+            "Data grids",
+            "Dark/light themes",
+            "Accessibility",
+            "Responsive layouts"],
+        highlights: [
+            "Senior frontend engineering rather than just page building."
+        ]
+    },
+    {
+        id: "performance-monitoring-web-app",
+        level: 1,
+        featured: false,
+        isReady: false,
+        title: "Performance Monitoring Web App",
+        slug: "Performance Monitoring Web App",
+        description:
+            "A frontend application that analyzes website performance and displays Core Web Vitals and performance metrics.",
+        level: 1,
+        technologies: ["React", "TypeScript", "Lighthouse APIs", "Node.js", "PostgreSQL", "Recharts"],
+
+        skills: [
+
+        ],
+        liveDemoLink: "",
+        github: "",
+        features: ["LCP",
+            "CLS",
+            "INP",
+            "TTFB",
+            "Performance history",
+            "URL comparison",
+            "Performance score",],
+        highlights: [
+
+        ]
+    },
+    {
+        id: "accessibility-audit-platform",
+        level: 1,
+        featured: false,
+        isReady: false,
+        title: "Accessibility Audit Platform",
+        slug: "Accessibility Audit Platform",
+        description:
+            "User enters a website URL and receives an accessibility report.",
+        level: 1,
+        technologies: ["React", "TypeScript", "Node.js", "Playwright", "axe-core", "PostgreSQL"],
+
+        skills: [
+
+        ],
+        liveDemoLink: "",
+        github: "",
+        features: ["WCAG violations",
+            "Severity classification",
+            "Element locator",
+            "Suggested fixes",
+            "Historical reports"],
+
+
+        highlights: [
+            "Accessibility + automation + backend engineering."
+        ]
+    },
+    {
+        id: "developer-documentation-platform",
+        level: 1,
+        featured: false,
+        isReady: false,
+        title: "Developer Documentation Platform",
+        slug: "Developer Documentation Platform",
+        description:
+            "Build a modern documentation platform similar to an internal engineering knowledge portal.",
+        technologies: ["React/Next.js", "TypeScript", "Node.js", "PostgreSQL", "Markdown/MDX"],
+        skills: [],
+        liveDemoLink: "",
+        github: "",
+        features: ["Search",
+            "Versioning",
+            "Table of contents",
+            "Code blocks",
+            "Authentication",
+            "Permissions",
+            "Comments",
+            "Document history",],
+        highlights: [
+        ]
+    },
+
+
+
+    //==========================================================
+    {
+        id: 1,
+        title: "Coming Soon JIRA Kind of Project",
+        slug: "Coming Soon JIRA Kind of Project",
+        description:
+            "Kind of Project",
+        featured: false,
+        isReady: false,
+        technologies: ["React", "TypeScript", "Node.js", "PostgreSQL", "Zustand", "React Query", "MUI"],
+        skills: [
+            "Full Stack Development",
+            "State Management",
+            "API Design",
+            "Performance Optimization",
+            "Database Design"
+        ],
+        liveDemoLink: "",
+        //   github: "",
+        //   highlights: [
+        //     "Built entire application solo",
+        //     "Optimized API calls using React Query",
+        //     "Handled large datasets efficiently"
+        //   ]
+    },
+
+    {
         id: 5,
         title: "Clip Cleaner (AI Video Processing Tool)",
         description:
             "A smart video processing tool that detects and removes idle frames, blank scenes, and erasing actions from raw art videos, producing clean and usable clips.",
         featured: false,
+        isReady: false,
         technologies: ["Python", "Flask", "OpenCV", "React", "TypeScript"],
         skills: [
             "Computer Vision",
@@ -1213,6 +1267,7 @@ export const projectsData: Project[] = [
         description:
             "A tool that ranks video clips based on aesthetic quality and selects the best clips within a specified duration, maintaining original order.",
         featured: false,
+        isReady: false,
         technologies: ["Node.js", "TypeScript", "React"],
         skills: [
             "Algorithm Design",
@@ -1234,6 +1289,7 @@ export const projectsData: Project[] = [
         description:
             "A modern, responsive portfolio showcasing projects, skills, and experience with a minimal UI/UX design approach.",
         featured: false,
+        isReady: false,
         technologies: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
         skills: [
             "UI/UX Design",
@@ -1255,6 +1311,7 @@ export const projectsData: Project[] = [
         description:
             "A productivity dashboard for managing tasks, tracking progress, and organizing workflows with intuitive UI and real-time updates.",
         featured: false,
+        isReady: false,
         technologies: ["React", "TypeScript", "Firebase", "MUI"],
         skills: [
             "Frontend Development",

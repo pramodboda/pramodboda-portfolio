@@ -38,56 +38,57 @@ export const getAppTheme = (mode: ColorMode) => {
         fontWeight: 500,
         fontStyle: "italic",
         fontSize: "clamp(2.75rem, 6vw, 4.75rem)",
+        // fontSize: 'clamp(1.875rem, 1.5rem + 1.5vw, 2.5rem)', // 30px → 40px
         lineHeight: 1.05,
         letterSpacing: "-0.01em",
       },
       h2: {
         // Section titles.
+        fontSize: 'clamp(1.625rem, 1.3rem + 1.2vw, 2.125rem)', // 26px → 34px
         fontWeight: 700,
-        fontSize: "clamp(1.75rem, 3.2vw, 2.5rem)",
-        lineHeight: 1.18,
+        lineHeight: 1.25,
         letterSpacing: "-0.02em",
       },
       h3: {
-        fontWeight: 700,
-        fontSize: "1.75rem",
-        lineHeight: 1.25,
+        fontSize: 'clamp(1.375rem, 1.15rem + 0.9vw, 1.75rem)', // 22px → 28px
+        fontWeight: 600,
+        lineHeight: 1.3,
         letterSpacing: "-0.015em",
       },
       h4: {
         // Card / panel titles.
-        fontWeight: 700,
-        fontSize: "1.25rem",
-        lineHeight: 1.3,
+        fontSize: 'clamp(1.25rem, 1.1rem + 0.6vw, 1.5rem)', // 20px → 24px
+        fontWeight: 600,
+        lineHeight: 1.35,
         letterSpacing: "-0.01em",
       },
       h5: {
+        fontSize: 'clamp(1.125rem, 1rem + 0.4vw, 1.25rem)', // 18px → 20px
         fontWeight: 600,
-        fontSize: "1.0625rem",
         lineHeight: 1.4,
       },
       h6: {
+        fontSize: 'clamp(1rem, 0.95rem + 0.25vw, 1.125rem)', // 16px → 18px
         fontWeight: 600,
-        fontSize: "0.9375rem",
-        lineHeight: 1.5,
+        lineHeight: 1.4,
       },
       subtitle1: {
         // Hero role line / tagline under a heading.
+        fontSize: 'clamp(0.9375rem, 0.9rem + 0.15vw, 1rem)', // 15px → 16px
         fontWeight: 500,
-        fontSize: "1.125rem",
         lineHeight: 1.5,
         color: palette.text.secondary,
       },
       subtitle2: {
-        fontWeight: 600,
-        fontSize: "0.9375rem",
+        fontSize: 'clamp(0.8125rem, 0.8rem + 0.1vw, 0.875rem)', // 13px → 14px
+        fontWeight: 500,
         lineHeight: 1.5,
       },
       body1: {
         // Main paragraph copy — optimized for reading comfort.
-        fontWeight: 500,
-        fontSize: "1rem",
-        lineHeight: 1.7,
+        fontSize: 'clamp(0.875rem, 0.85rem + 0.1vw, 1rem)', // 14px → 16px
+        fontWeight: 400,
+        lineHeight: 1.6,
         color: palette.text.secondary,
       },
       body2: {
@@ -166,7 +167,7 @@ export const getAppTheme = (mode: ColorMode) => {
       MuiCard: {
         styleOverrides: {
           root: {
-            borderRadius: radius.lg,
+            borderRadius: radius.md,
             boxShadow: "none",
             border: `1px solid ${palette.divider}`,
             backgroundImage: "none",

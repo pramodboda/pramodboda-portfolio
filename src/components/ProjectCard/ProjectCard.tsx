@@ -45,7 +45,7 @@ export default function ProjectCard({
         flexDirection: "column",
         transition: "transform 0.25s ease, box-shadow 0.25s ease",
         "&:hover": {
-          transform: "translateY(-6px)",
+          // transform: "translateY(-6px)",
           boxShadow: (theme) =>
             theme.palette.mode === "light"
               ? "0 20px 40px -20px rgba(20, 18, 26, 0.25)"
@@ -55,7 +55,7 @@ export default function ProjectCard({
     >
       <Box
         sx={{
-          height: 180,
+          height: 250,
           backgroundImage: thumbImg ? `url(${thumbImg})` : gradientFor(title),
           backgroundSize: "cover",
           backgroundPosition: "center",

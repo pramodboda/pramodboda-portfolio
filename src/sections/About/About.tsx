@@ -7,7 +7,7 @@ import Stack from "@mui/material/Stack";
 import SectionHeading from "../../components/SectionHeading/SectionHeading";
 
 const STATS = [
-  { value: "4+", label: "Years of experience" },
+  { value: "9+", label: "Years of experience" },
   { value: "20+", label: "Projects delivered" },
   { value: "10+", label: "Core technologies" },
   { value: "100%", label: "Remote-ready" },
