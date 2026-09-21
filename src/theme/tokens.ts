@@ -1,10 +1,12 @@
 // src/theme/tokens.ts
 // Central design tokens so the light/dark themes stay in sync and easy to retune.
+import { deepPurple } from "@mui/material/colors";
 
 export const brand = {
   // Pulled from the existing logo mark (public/favicon.svg) so the whole
   // site stays visually consistent with the brand identity already in use.
-  violet: "#7C3AED",
+  // violet: "#7C3AED",
+  violet: deepPurple[600],
   violetLight: "#A78BFA",
   violetSoft: "#EDE6FF",
 };
@@ -19,6 +21,7 @@ export const radius = {
 export const fonts = {
   // Workhorse UI/body font — geometric, highly legible, huge weight range.
   sans: "'Plus Jakarta Sans', 'Segoe UI', sans-serif",
+  // sans: "'Manrope', 'Segoe UI', sans-serif",
   // Editorial display font used sparingly for the hero name / big statement
   // headlines. Soft, slightly irregular serif that reads as "designed",
   // not corporate — pairs well with a clean geometric sans.

@@ -37,7 +37,7 @@ export default function FeaturedProjects() {
         <Button
           component={RouterLink}
           to="/projects"
-          variant="outlined"
+          variant="contained"
           size="large"
         >
           View All Projects
