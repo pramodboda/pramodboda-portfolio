@@ -178,8 +178,9 @@ export const getAppTheme = (mode: ColorMode) => {
       MuiChip: {
         styleOverrides: {
           root: {
-            fontWeight: 600,
+            fontWeight: 500,
             borderRadius: radius.sm,
+            color: "#999999"
           },
         },
       },
