@@ -92,20 +92,21 @@ export const getAppTheme = (mode: ColorMode) => {
         color: palette.text.secondary,
       },
       body2: {
-        fontWeight: 500,
-        fontSize: "0.875rem",
-        lineHeight: 1.65,
+        fontSize: 'clamp(0.8125rem, 0.8rem + 0.05vw, 0.875rem)', // 13px → 14px
+        fontWeight: 400,
+        lineHeight: 1.6,
         color: palette.text.secondary,
       },
       button: {
+        fontSize: 'clamp(0.8125rem, 0.8rem + 0.05vw, 0.875rem)', // 13px → 14px
         fontWeight: 600,
-        fontSize: "0.9375rem",
-        textTransform: "none",
+        textTransform: 'none',
         letterSpacing: 0,
       },
       caption: {
-        fontSize: "0.75rem",
-        lineHeight: 1.5,
+        fontSize: 'clamp(0.6875rem, 0.68rem + 0.05vw, 0.75rem)', // 11px → 12px
+        fontWeight: 400,
+        lineHeight: 1.4,
         color: palette.text.secondary,
       },
       overline: {

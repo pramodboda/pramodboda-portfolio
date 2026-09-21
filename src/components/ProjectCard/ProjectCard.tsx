@@ -62,7 +62,7 @@ export default function ProjectCard({
         }}
       />
       <CardContent sx={{ flexGrow: 1 }}>
-        <Typography variant="h4" component="h3" sx={{ mb: 1 }}>
+        <Typography variant="h6" component="h6" sx={{ mb: 1 }}>
           {title}
         </Typography>
         <Typography

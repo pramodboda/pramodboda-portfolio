@@ -38,7 +38,7 @@ function App() {
     <>
       <Navbar />
 
-      <Container maxWidth="lg">
+      <Container maxWidth="lg" disableGutters sx={{ px: { xs: 2, lg: 0 } }}>
         <AppRoutes />
       </Container>
 
