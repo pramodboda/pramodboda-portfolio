@@ -9,6 +9,33 @@ export const projectsData: Project[] = [
     // Level 4 
     //==========================================================
     {
+        id: "InsightForge",
+        level: 4,
+        featured: true,
+        isReady: true,
+        title: "InsightForge",
+        slug: "InsightForge",
+        description:
+            "Multi-Domain Intelligence Dashboard Platform.",
+        thumbImg: "",
+        technologies: ["React", "TypeScript", "MUI", "Node.js", "WebSocket", "PostgreSQL/PostGIS"],
+        skills: [
+        ],
+        liveDemoLink: "",
+        github: "",
+        features: [
+            "Features:",
+            "🌍 ClimateScope",
+            "💼 Business Intelligence",
+            "🤖 AI SQL Analyst",
+            "👨‍💻 Developer Analytics",
+            "⚙ Settings",
+            "ℹ About"
+        ],
+        highlights: [
+        ]
+    },
+    {
         id: "real-time-logistics-tracking-system",
         level: 4,
         featured: false,
