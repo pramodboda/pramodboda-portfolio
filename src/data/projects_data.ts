@@ -9,16 +9,16 @@ export const projectsData: Project[] = [
     // Level 4 
     //==========================================================
     {
-        id: "image compressor",
+        id: "PixelForge",
         level: 4,
         featured: true,
         isReady: true,
-        title: "Image Compressor",
-        slug: "Image Compressor",
+        title: "PixelForge",
+        slug: "PixelForge",
         description:
-            "The current free web tool allows up to 20 images at once, 5 MB each. It supports JPEG, PNG, WebP and conversion options including AVIF.",
+            "A privacy-first, client-side image optimization web application that allows users to compress, convert, resize, compare, and download images without uploading them to a server., The current free web tool allows up to 20 images at once, 5 MB each. It supports JPEG, PNG, WebP and conversion options including AVIF.",
         thumbImg: "",
-        technologies: ["React", "TypeScript", "MUI", "Node.js",],
+        technologies: ["React", "TypeScript", "MUI", "Web Workers","WebAssembly"],
         skills: [
         ],
         liveDemoLink: "",
