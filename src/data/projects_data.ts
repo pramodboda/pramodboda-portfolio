@@ -9,6 +9,32 @@ export const projectsData: Project[] = [
     // Level 4 
     //==========================================================
     {
+        id: "image compressor",
+        level: 4,
+        featured: true,
+        isReady: true,
+        title: "Image Compressor",
+        slug: "Image Compressor",
+        description:
+            "The current free web tool allows up to 20 images at once, 5 MB each. It supports JPEG, PNG, WebP and conversion options including AVIF.",
+        thumbImg: "",
+        technologies: ["React", "TypeScript", "MUI", "Node.js",],
+        skills: [
+        ],
+        liveDemoLink: "",
+        github: "",
+        features: [
+            "Runs locally in your browser — images don't leave your device.",
+            "Excellent for JPG → WebP/AVIF",
+            "You can visually compare original vs compressed.",
+            "You control quality and dimensions.",
+            "Great for portfolio hero images, project screenshots and thumbnails.",
+            "No software installation.",
+        ],
+        highlights: [
+        ]
+    },
+    {
         id: "InsightForge",
         level: 4,
         featured: true,
