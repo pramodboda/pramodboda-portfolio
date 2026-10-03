@@ -50,10 +50,7 @@ export default function HeroLeft() {
       <Typography
         variant="body1"
         sx={{ mb: 4, maxWidth: 480, mx: { xs: "auto", md: 0 } }}
-      >
-        I build scalable, high-performance web applications using React,
-        TypeScript, and modern UI architecture &mdash; with a focus on clean
-        design systems and pixel-accurate detail.
+      >I build scalable, production-ready full-stack applications with React, TypeScript, modern backend technologies, and robust UI architecture — combining clean engineering, thoughtful design systems, and high-performance user experiences.
       </Typography>
 
       <Stack
