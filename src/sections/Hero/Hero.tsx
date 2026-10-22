@@ -1,25 +1,9 @@
-// // Hero.tsx
+// Hero.tsx
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
 
 import HeroLeft from "./HeroLeft";
 import HeroRight from "./HeroRight";
-
-// export default function Hero() {
-//   return (
-//     <Box id="top" component="section" sx={{ pt: { xs: 14, md: 18 }, pb: { xs: 8, md: 10 } }}>
-//       <Grid container spacing={{ xs: 6, md: 4 }} sx={{ alignItems: "center" }}>
-//         <Grid size={{ xs: 12, md: 7 }} sx={{ order: { xs: 2, md: 1 } }}>
-//           <HeroLeft />
-//         </Grid>
-//         <Grid size={{ xs: 12, md: 5 }} sx={{ order: { xs: 1, md: 2 } }}>
-//           <HeroRight />
-//         </Grid>
-//       </Grid>
-//     </Box>
-//   );
-// }
-
 
 
 // ============================================================================================================
@@ -60,8 +44,10 @@ export function HeroSection() {
     if (window.matchMedia("(pointer: coarse)").matches) return;
 
     let raf = 0;
-    let pending: { x: number; y: number, clientX: number;
-      clientY: number; } | null = null;
+    let pending: {
+      x: number; y: number, clientX: number;
+      clientY: number;
+    } | null = null;
 
     const onMove = (e: MouseEvent) => {
       const rect = section.getBoundingClientRect();
@@ -69,7 +55,7 @@ export function HeroSection() {
         x: Math.round(e.clientX - rect.left),
         y: Math.round(e.clientY - rect.top),
         clientX: e.clientX,
-    clientY: e.clientY,
+        clientY: e.clientY,
       };
       // Throttle React state updates to one per frame.
       if (!raf) {
@@ -79,13 +65,13 @@ export function HeroSection() {
               x: pending.x,
               y: pending.y,
             });
-    
+
             setCursorPosition({
               x: pending.clientX,
               y: pending.clientY,
             });
           }
-    
+
           raf = 0;
         });
       }
@@ -141,7 +127,7 @@ export function HeroSection() {
             </Grid>
             <Grid size={{ xs: 12, lg: 5 }} sx={{ order: { xs: 1, md: 2 } }}>
               {/* <HeroRight /> */}
-              <HeroRight cursorPosition={cursorPosition}/>
+              <HeroRight cursorPosition={cursorPosition} />
             </Grid>
           </Grid>
         </Box>

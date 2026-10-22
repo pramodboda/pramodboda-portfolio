@@ -20,7 +20,9 @@ export const radius = {
 
 export const fonts = {
   // Workhorse UI/body font — geometric, highly legible, huge weight range.
-  sans: "'Plus Jakarta Sans', 'Segoe UI', sans-serif",
+  // sans: "'Plus Jakarta Sans', 'Segoe UI', sans-serif",
+  sans: "'Google Sans', 'Segoe UI', sans-serif",
+
   // sans: "'Manrope', 'Segoe UI', sans-serif",
   // Editorial display font used sparingly for the hero name / big statement
   // headlines. Soft, slightly irregular serif that reads as "designed",
