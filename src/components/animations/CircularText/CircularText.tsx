@@ -1,3 +1,5 @@
+// client/src/components/animations/CircularText.tsx
+
 import React, { useEffect } from 'react';
 
 import Typography from "@mui/material/Typography"
