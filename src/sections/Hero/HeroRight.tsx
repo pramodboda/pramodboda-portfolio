@@ -1,5 +1,6 @@
 // HeroRight.tsx
 import Box from "@mui/material/Box";
+import Link from "@mui/material/Link";
 import { useTheme } from "@mui/material/styles";
 
 
@@ -30,7 +31,9 @@ export default function HeroRight({
     >
       <Character />
       {/* <InteractiveArrowBadge /> */}
-      <InteractiveArrowBadge cursorPosition={cursorPosition} />
+      <Link href="#work">
+        <InteractiveArrowBadge cursorPosition={cursorPosition} />
+      </Link>
 
       {/* Rotating badge overlapping the bottom-right of the portrait */}
       {/* <Box
@@ -62,7 +65,7 @@ export default function HeroRight({
         />
       </Box> */}
 
-     
+
     </Box>
   );
 }

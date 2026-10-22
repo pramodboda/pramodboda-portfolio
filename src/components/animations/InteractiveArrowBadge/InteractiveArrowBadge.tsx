@@ -189,8 +189,8 @@ export default function InteractiveArrowBadge({
       sx={{
         position: "absolute",
         zIndex: 2,
-        bottom: -10,
-        right: -10,
+        bottom: 50,
+        right: -60,
         width: { xs: 92, md: 110 },
         height: { xs: 92, md: 110 },
         borderRadius: "50%",
@@ -240,7 +240,7 @@ export default function InteractiveArrowBadge({
           name="arrow-down-sharp"
           style={{
             // fontSize: "1.5rem",
-            fontSize: "3rem",
+            fontSize: "5rem",
             fontWeight: "bold",
             display: "block",
             transform: `rotate(${rotation}deg)`,
