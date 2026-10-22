@@ -239,7 +239,9 @@ export default function InteractiveArrowBadge({
         <ion-icon
           name="arrow-down-sharp"
           style={{
-            fontSize: "1.5rem",
+            // fontSize: "1.5rem",
+            fontSize: "3rem",
+            fontWeight: "bold",
             display: "block",
             transform: `rotate(${rotation}deg)`,
             transition: isHovered
