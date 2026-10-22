@@ -41,6 +41,11 @@ import "../../components/animations/HeroAnimations/HeroSection.css";
  * Swap the copy in the JSX below for your own name / role / statement.
  */
 export function HeroSection() {
+  const [cursorPosition, setCursorPosition] = useState({
+    x: 0,
+    y: 0,
+  });
+
   const sectionRef = useRef<HTMLElement>(null);
   const [coords, setCoords] = useState({ x: 0, y: 0 });
 
@@ -55,18 +60,32 @@ export function HeroSection() {
     if (window.matchMedia("(pointer: coarse)").matches) return;
 
     let raf = 0;
-    let pending: { x: number; y: number } | null = null;
+    let pending: { x: number; y: number, clientX: number;
+      clientY: number; } | null = null;
 
     const onMove = (e: MouseEvent) => {
       const rect = section.getBoundingClientRect();
       pending = {
         x: Math.round(e.clientX - rect.left),
         y: Math.round(e.clientY - rect.top),
+        clientX: e.clientX,
+    clientY: e.clientY,
       };
       // Throttle React state updates to one per frame.
       if (!raf) {
         raf = requestAnimationFrame(() => {
-          if (pending) setCoords(pending);
+          if (pending) {
+            setCoords({
+              x: pending.x,
+              y: pending.y,
+            });
+    
+            setCursorPosition({
+              x: pending.clientX,
+              y: pending.clientY,
+            });
+          }
+    
           raf = 0;
         });
       }
@@ -121,7 +140,8 @@ export function HeroSection() {
               <HeroLeft />
             </Grid>
             <Grid size={{ xs: 12, lg: 5 }} sx={{ order: { xs: 1, md: 2 } }}>
-              <HeroRight />
+              {/* <HeroRight /> */}
+              <HeroRight cursorPosition={cursorPosition}/>
             </Grid>
           </Grid>
         </Box>
