@@ -1,8 +1,10 @@
 import { useRef, useState } from "react";
 import Box from "@mui/material/Box";
 
+import { useTheme } from "@mui/material/styles";
 
 export default function InteractiveArrowBadge() {
+    const theme = useTheme();
 
     const badgeRef = useRef(null);
     const [arrowAngle, setArrowAngle] = useState(180);
